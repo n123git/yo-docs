@@ -3744,7 +3744,7 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when it
 | 0xA494B844 | 21 | - | - |
 | 0x6242919A | 22 | Download Menu Data #1 | - |
 | 0x209E3EB5 | 23 | Download Menu Data #2 | - |
-| 0x141DC04D | 24 | - | - |
+| 0x141DC04D | 24 | - | `tmp_return_title` |
 | 0xC79E50EF | 25 | - | - |
 | 0x2F21650A | 26 | - | - |
 | 0xB6BBD2C2 | 27 | - | - |
@@ -3791,7 +3791,7 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when it
 | 0xDAD320CD | 68 | - | - |
 | 0xCEB7AC4E | 69 | - | - |
 | 0xF3B9ABAB | 70 | - | - |
-| 0xA1747699 | 71 | - | - |
+| 0xA1747699 | 71 | - | `tmp_quest_accept_menu` |
 | 0x9F29FF19 | 72 | - | - |
 | 0xC9B326BF | 73 | - | `tmp_gaya_stop` |
 | 0xC1D4315F | 74 | - | `tmp_yokaispot_battle_encount` |

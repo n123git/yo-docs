@@ -3945,7 +3945,7 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when it
 | 0x143E7EBC | 78 | - | `tmp_gacha_prize_2` |
 | 0x63394E2A | 79 | - | `tmp_gacha_prize_3` |
 | 0xFD5DDB89 | 80 | - | `tmp_gacha_prize_4` |
-| 0xC939DE59 | 110 | Used in Battle AI Act Conds | - |
+| 0xC939DE59 | 110 | Battle State Dataa | - |
 | 0x594E57E6 | 111 | - | - |
 | 0xC047065C | 112 | - | - |
 | 0xB74036CA | 113 | - | - |

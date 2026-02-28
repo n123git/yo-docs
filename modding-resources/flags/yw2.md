@@ -3793,7 +3793,7 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when it
 | 0xF3B9ABAB | 70 | - | - |
 | 0xA1747699 | 71 | - | - |
 | 0x9F29FF19 | 72 | - | - |
-| 0xC9B326BF | 73 | - | - |
+| 0xC9B326BF | 73 | - | `tmp_gaya_stop` |
 | 0xC1D4315F | 74 | - | `tmp_yokaispot_battle_encount` |
 | 0x1EAA97D1 | 75 | - | - |
 | 0x49EBC157 | 76 | - | - |

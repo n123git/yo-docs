@@ -3890,7 +3890,7 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when it
 | FLAG_ID | Slot | Notes | Name |
 |---------|------|-------| ---- |
 | 0x98CE5C36 | 0 | - | - |
-| 0x9FF789D8 | 1 | - | - |
+| 0x9FF789D8 | 1 | - | `tmp_event_select` |
 | 0xC99C90E8 | 3 | - | - |
 | 0xADBA2641 | 4 | - | - |
 | 0xDEDC17BC | 5 | - | - |

@@ -14,8 +14,7 @@ This section contains a decompilation of Yo-kai Watch 1's debug tool called tool
  * Main()
  * Entry point for ze tool.
  * Loads the tool's own ANM resource and the battle ANM resource (which holds the waza frames),
- * sets up all UI elements, then enters a loop allowing you to navigate between 'waza' frames
- * using the left/right controller inputs (D-Pad left = previous, D-Pad right = next), clamped to [0, 31].
+ * It also sets up all UI elements, then enters a loop allowing you to navigate between 'waza' frames using the left/right controller inputs.
  */
 Main()
 {
@@ -142,7 +141,7 @@ BuildScreenBObj($param0)
 	$local1 = set_coroutine(""); // stop the currently running coroutine (SubLoop) so it doesn't interfere during rebuild
 	$local1 = sub5310(1, 3); // delete all existing point UI elements (clears the previous waza frame's points from the screen)
 	$local1 = $param0 + 1; // waza frame names are 1-indexed (waza_g3_01 not waza_g3_00)
-	$object0 = format("waza_g3_%02d", $local1); // format the ANM frame name e.g. "waza_g3_01"
+	$object0 = format("waza_g3_%02d", $local1); // format the ANM frame name, for example "waza_g3_01"
 	$local1 = set_anm_res_animated("obj_bg", $object0); // update the background to display the correct waza frame
 	$local1 = attach_text("msg_anm", $object0); // display the waza frame name as text on the top screen label
 	$object1 = run_engine_command(0, $param0); // get the number of stored points for this waza frame from the engine
@@ -151,7 +150,7 @@ BuildScreenBObj($param0)
 	$local1 = $object2 < $object1; // while i < pointCount
 	if not $local1 goto "@001@"h;
 	$local1 = run_engine_command(10, $param0, $object2, $object3, $object4); // get the position of point i; outputs X into $object3 and Y into $object4
-	$object5 = format("obj_pnt%03d", $object2); // format the element name for this point e.g. "obj_pnt000"
+	$object5 = format("obj_pnt%03d", $object2); // format the element name for this point so for example "obj_pnt000"
 	$local2 = does_element_exist($object5); // check if the element already exists (shouldn't after the clear above, but guard anyway)
 	$local1 = not $local2;
 	if not $local1 goto "@002@"h;
@@ -164,25 +163,24 @@ BuildScreenBObj($param0)
 }
 
 /*
- * CreatePointObj($param0, $param1, $param2, $param3)
+ * CreatePointObj(elementNam, xpos, ypos, pointIdx)
  * Creates a single draggable point UI element at the specified position.
  * The element is rendered as a small 4x4 red square and is interactive:
  * touching and holding it enters PointObj_Slide which lets the user drag it.
  */
 CreatePointObj($param0, $param1, $param2, $param3)
-{ // $param0 = elementName, $param1 = xPos, $param2 = yPos, $param3 = pointIndex (stored in element param slot for PointObj_Slide to identify itself to the engine)
+{ // $param0 = elementName, $param1 = xPos, $param2 = yPos, $param3 = pointIndex
 	$local1 = create_element($param0, 1, 131, 3, $param3); // create the element on the bottom screen; the 5th argument stores the point index into the element (accessible via $unk4 in callbacks)
 	$local1 = sub5420($param0, -2, -2, 4, 4); // set the element's visual rect to a 4x4 square centred on its position
 	$local1 = set_tint($param0, 1f, 0f, 0f); // tint it red (SubLoop will animate this)
 	$local1 = move_element($param0, $param1, $param2); // position the element at the stored point coordinates
-	$local1 = sub5034($param0, "PointObj_Normal", "PointObj_Slide"); // assign pen callbacks: idle = PointObj_Normal (no-op), hold/drag = PointObj_Slide
+	$local1 = sub5034($param0, "PointObj_Normal", "PointObj_Slide"); // assign pen callbacks
 	$local1 = sub5051($param0, 1, -5, -5, 10, 10); // set the interactive hitbox to a 10x10 area centred on the element, making it easier to tap
 }
 
 /*
  * PointObj_Normal()
- * Idle callback for a point element. No behaviour needed since the point is only
- * visually animated by SubLoop and only interactive while being held (PointObj_Slide).
+ * Empty because no code is needed
  */
 PointObj_Normal()
 {
@@ -190,9 +188,7 @@ PointObj_Normal()
 
 /*
  * PointObj_Slide()
- * Drag callback for a point element. Runs as long as the user holds the point,
- * continuously moving the element to the current pen position and updating the
- * engine's stored coordinates for this point so the data stays in sync with the visual.
+ * Drag callback for a point element. Runs as long as the user holds the point, continuously moving the element to the current pen position and updating the engine's stored coordinates for this point so the data stays in sync with the visual.
  */
 PointObj_Slide()
 {
@@ -200,7 +196,7 @@ PointObj_Slide()
 	if not 1 goto "@001@"h; // (unconditional loop, exits only when the pen is released and the engine stops calling this callback)
 	$object0 = ctrl_pen_get_lx(); // get the current pen X position
 	$object1 = ctrl_pen_get_ly(); // get the current pen Y position
-	$local1 = move_element($unk0, $object0, $object1); // move this point's UI element to the pen position; $unk0 is the element's own name (injected by the engine into the callback's scope)
+	$local1 = move_element($unk0, $object0, $object1); // move this point's UI element to the pen position, $unk0 is the element's name (injected by the engine into the callback's scope - $unk should be renamed to $engine)
 	$local1 = run_engine_command(11, $global0, $unk4, $object0, $object1); // update the engine's stored position for this point; $unk4 is the point index stored when CreatePointObj called create_element
 	yield; // wait a frame
 	goto "@000@"h; // and loop
@@ -217,30 +213,26 @@ CreateBtn($param0, $param1)
 	$local1 = set_anm_res($param0, $param1); // assign the ANM resource to the button
 	$local3 = get_ui_element_property($param0, 6); // get the default idle animation from the ANM resource
 	$local1 = set_anm_res_animated($param0, $local3); // play the idle animation
-	$local1 = sub5252($param0); // set the button's anchor/pivot (likely centres it)
-	$local1 = assign_advanced_ui_callback($param0, "Btn_ClkNormal", "Btn_ClkTouch", "Btn_ClkClick"); // assign the standard 3-state callbacks shared by all CreateBtn buttons
+	$local1 = sub5252($param0);
+	$local1 = assign_advanced_ui_callback($param0, "Btn_ClkNormal", "Btn_ClkTouch", "Btn_ClkClick");
 }
 
-// Standard idle callback for CreateBtn buttons; restores the idle animation when the touch is released without clicking
 Btn_ClkNormal()
 {
-	$local1 = set_anm_res_animated($unk0, $unk6); // restore the idle animation; $unk0 = element name, $unk6 = idle anim (injected by engine)
-}
+	$local1 = set_anm_res_animated($unk0, $unk6); // restores the idle anim; $unk0 = element name, $unk6 = idle anim 
 
-// Standard touch callback for CreateBtn buttons; plays the pressed animation while held
 Btn_ClkTouch()
 {
-	$local1 = set_anm_res_animated($unk0, $unk7); // play the pressed animation; $unk7 = pressed anim (injected by engine)
+	$local1 = set_anm_res_animated($unk0, $unk7); // plays the pressed anim; $unk7 is the pressed anim
 }
 
-// Standard click callback for CreateBtn buttons; restores idle animation then fires the button's own callback as a coroutine
 Btn_ClkClick()
 {
 	$local1 = set_anm_res_animated($unk0, $unk6); // restore idle animation on click
-	$local1 = spawn_coroutine($unk5, $unk0); // spawn the button's specific click handler as a coroutine; $unk5 = click callback name set at create_element time, $unk0 = element name passed as argument
+	$local1 = spawn_coroutine($unk5, $unk0); // spawn the button's specific click handler as a coroutine; $unk5 = click callback name set at create_element time; $unk0 = element name passed as argument
 }
 
-// Idle callback for the add-point button; just restores the idle animation
+// Idle callback for the add-point button; restores the idle animation
 BtnAdd_Nrm()
 {
 	$local1 = set_anm_res_animated($unk0, $unk6); // restore the idle animation
@@ -249,26 +241,24 @@ BtnAdd_Nrm()
 /*
  * BtnAdd_Tch()
  * Touch/hold callback for the add-point button.
- * On first touch: asks the engine to allocate a new point slot for the current waza,
- * then creates a point UI element at the current pen position.
- * While held: continuously moves the point to the pen position and syncs the engine data,
- * effectively letting the user place-and-drag the new point in one gesture.
+ * On the first touch this begs the engine to allocate a new point slot for the current waza, then makes a point UI element at the current pen (touch) pos.
+ * While held this moves the point to the pen position and syncs the engine data :p
  */
 BtnAdd_Tch()
 {
 	$local1 = set_anm_res_animated($unk0, $unk7); // play the pressed animation
 	$object0 = run_engine_command(0, $global0); // get the current point count for this waza (this will be the index of the new point)
 	$local1 = run_engine_command(1, $global0); // tell the engine to add a new point slot for the current waza
-	$global1 = format("obj_pnt%03d", $object0); // $global1 = newPointElementName e.g. "obj_pnt003"; stored globally so the drag loop below can reference it after the coroutine frame boundary
-	$local2 = does_element_exist($global1); // check if the element already exists (shouldn't for a brand new point, but guard anyway)
+	$global1 = format("obj_pnt%03d", $object0); // $global1 = newPointElementName, so for example "obj_pnt003"
+	$local2 = does_element_exist($global1); // check if the element already exists - this shouldn't iirc for a brand new point but Level5 is always safe
 	$local1 = not $local2;
-	if not $local1 goto "@000@"h;
-	$local3 = ctrl_pen_get_lx(); // get the initial pen X position for placement
-	$local4 = ctrl_pen_get_ly(); // get the initial pen Y position for placement
+	if not $local1 goto "@000@"h;  // if not then
+	$local3 = ctrl_pen_get_lx(); // get the initial X pos for placement
+	$local4 = ctrl_pen_get_ly(); // get the initial Y pos for placement
 	$local1 = CreatePointObj($global1, $local3, $local4, $object0); // create the point element at the pen position with the new point index
-"@000@":
-"@001@": // drag loop: move the new point while the button is held
-	if not 1 goto "@002@"h; // (unconditional loop, exits when touch is released)
+"@000@": // else (or after doing the above)
+"@001@": // enter the drag loop
+	if not 1 goto "@002@"h; // while(true)
 	$object1 = ctrl_pen_get_lx(); // current pen X
 	$object2 = ctrl_pen_get_ly(); // current pen Y
 	$local1 = move_element($global1, $object1, $object2); // move the new point element to the pen position
@@ -281,21 +271,19 @@ BtnAdd_Tch()
 /*
  * Btn_Delete()
  * Click callback for the delete button.
- * Removes the last point from the current waza by telling the engine to pop it,
- * then deletes the corresponding UI element from the screen.
- * Does nothing if there are no points to delete.
+ * Removes the last point from the current waza by telling the engine to pop it, then deletes the actual UI element from the screen.
  */
 Btn_Delete()
 {
 	$object0 = run_engine_command(0, $global0); // get the current point count for this waza
 	$local1 = $object0 == 0; // if there are no points then
 	if not $local1 goto "@000@"h;
-	return 0; // nothing to delete, return early
-"@000@":
+	return 0; // there's nothing to delete so it returns
+"@000@": // otherwise
 	$local1 = run_engine_command(2, $global0); // tell the engine to remove the last point from the current waza
 	$local1 = $object0 - 1; // compute the index of the point that was just removed (last index = count - 1)
 	$object1 = format("obj_pnt%03d", $local1); // format its element name
-	$local1 = does_element_exist($object1); // check if the element exists (it should, but guard anyway)
+	$local1 = does_element_exist($object1); // check if the element exists (it should, but again Level5 is safe)
 	if not $local1 goto "@001@"h;
 	$local1 = delete_element($object1); // delete the point's UI element from the screen
 "@001@":
@@ -304,7 +292,8 @@ Btn_Delete()
 /*
  * Btn_Save()
  * Click callback for the save button.
- * Tells the engine to serialise and save all waza point data to disk.
+ * Tells the engine to serialise and save all waza point data to disk?
+ * Atleast I'm assuming it saves to your save - I don't remember
  */
 Btn_Save()
 {
@@ -315,7 +304,7 @@ Btn_Save()
  * WaitFrame($param0)
  * Waits for the specified number of frames, accounting for delta time
  * so the wait is frame-rate aware. Falls back to a single yield if param0 <= 0.
- * Also checks sub1010() (likely an is_paused check) to avoid counting paused frames.
+ * Also checks sub1010() (is_paused?) to avoid counting certain frames.
  */
 WaitFrame($param0)
 { // $param0 = frameCount
@@ -324,18 +313,18 @@ WaitFrame($param0)
 	$object0 = $param0; // $object0 = remainingFrames
 "@001@":
 	$local2 = $object0 > 0; // while there are remaining frames
-	$local4 = sub1010(); // check if the game is paused
-	$local3 = not $local4; // only count down if NOT paused
-	$local1 = $local2 and $local3; // continue if (remainingFrames > 0) AND (not paused)
+	$local4 = sub1010(); // check if the game is paused?
+	$local3 = not $local4; // only count down if NOT 
+	$local1 = $local2 and $local3; // continue if (remainingFrames > 0) AND (not (paused?))
 	if not $local1 goto "@002@"h;
-	$local1 = get_delta_time(); // get ms elapsed since last frame * 30 (so 1 frame = 1.0 at 30fps, 0.5 at 60fps etc.)
+	$local1 = get_delta_time();
 	$object0 -= $local1; // subtract from remaining frames
 	yield; // wait a frame
 	goto "@001@"h; // and loop
 "@002@":
-	$local1 = $object0 == $param0; // if we never actually decremented (frameCount was consumed immediately) yield once anyway to guarantee at least one frame of wait
+	$local1 = $object0 == $param0; // if we never actually decremented thn well yield once anyway to guarantee at least one frame of wait
 	if not $local1 goto "@003@"h;
-	yield; // minimum one-frame wait
+	yield;
 "@003@":
 "@000@":
 }
@@ -349,7 +338,7 @@ WaitFrame($param0)
 IsAnmExist($param0)
 { // $param0 = wazaIndex (0-based)
 	$local1 = $param0 + 1; // convert to 1-based index to match the ANM frame naming convention
-	$object0 = format("waza_g3_%02d", $local1); // format the frame name e.g. "waza_g3_01"
+	$object0 = format("waza_g3_%02d", $local1); // format the frame name so like "waza_g3_01"
 	$local1 = sub3544("res_anm_btl", $object0, $object1, $object2); // check if this frame exists within the loaded battle ANM resource; returns 1 if found
 	return $local1; // return the result
 }

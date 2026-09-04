@@ -64,7 +64,7 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0x640273DE | 48 | - | `appear_wanderer_soul` |
 | 0xAB79508A | 49 | - | `qr_release` |
 | 0xB6C85212 | 50 | - | `password_release` |
-| 0xD03ED610 | 51 | - | - |
+| 0xD03ED610 | 51 | - | `gate_release` |
 | 0x4CE86506 | 52 | - | `present_lens_release` |
 | 0x482C8429 | 53 | - | `battle_member_selection` |
 | 0x3E1E067A | 54 | - | `battle_aim` |
@@ -78,7 +78,7 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0x8BAAE62D | 62 | Typhoon: Advisory Active (Story Weather Event) | - |
 | 0x8CA83098 | 63 | Wicked Yo-kai: Warning Active (Story Weather Event) | - |
 | 0x4152B1B4 | 64 | - | - |
-| 0x23129852 | 65 | - | - |
+| 0x23129852 | 65 | - | `kon_release` |
 | 0x22BEF6EF | 66 | - | - |
 | 0x1D0822F7 | 67 | - | `medal_release` |
 | 0x7F2211BC | 68 | - | - |
@@ -101,10 +101,10 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0x5EDE5FB0 | 85 | - | - |
 | 0xAFF78D0C | 86 | - | - |
 | 0xAB5B9E4E | 87 | - | - |
-| 0x7FA66054 | 88 | - | - |
-| 0x04FA47F4 (0x4FA47F4) | 89 | - | - |
+| 0x7FA66054 | 88 | - | `sound_comp_notice` |
+| 0x04FA47F4 (0x4FA47F4) | 89 | - | `event_comp_notice` |
 | 0x8A81D006 | 90 | - | `dictionary_comp_notice` |
-| 0x62D2B8A6 | 91 | - | - |
+| 0x62D2B8A6 | 91 | - | `wanted_comp_notice` |
 | 0xE32CCA14 | 92 | - | - |
 | 0x1600AB7C | 93 | - | `yspot_comp_notice` |
 | 0x33F7918D | 94 | - | - |
@@ -1293,7 +1293,7 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0xBEDA85B9 | 1278 | - | `rever_t100d00_02` |
 | 0xC9DDB52F | 1279 | - | `rever_t100d00_03` |
 | 0x98CFF92C | 1280 | - | `door_t100d00_boss` |
-| 0x075DE8E9 (0x75DE8E9) | 1281 | - | - |
+| 0x075DE8E9 (0x75DE8E9) | 1281 | - | `door_t201d23_boss` |
 | 0x23FCC8FA | 1282 | - | - |
 | 0x7EC3A734 | 1283 | - | `gimic_t103d41_tatami` |
 | 0x3CE6A049 | 1284 | - | `gimic_t103d43_tatami` |
@@ -1310,7 +1310,7 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0x5EDA1813 | 1295 | - | `wl_t105d45_01` |
 | 0xAC7A1F21 | 1296 | - | `wl_t121g00_01` |
 | 0x35734E9B | 1297 | - | `wl_t121g00_02` |
-| 0x50ABC683 | 1298 | - | - |
+| 0x50ABC683 | 1298 | - | `wl_t231d04_01` |
 | 0xCEBC6146 | 1299 | - | `wl_t100d00_01` |
 | 0xBF2F0B80 | 1300 | - | `wl_t104d11_01` |
 | 0x242567B8 | 1301 | - | `ev70_6140` |
@@ -1370,8 +1370,8 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0x8A0B3B4F | 1355 | - | `t106g00` |
 | 0x6D1C5096 | 1356 | - | `t121g00` |
 | 0x507C7926 | 1357 | - | `t131g00` |
-| 0x71DB7982 | 1358 | - | - |
-| 0x81A3EDF6 | 1359 | - | - |
+| 0x71DB7982 | 1358 | - | `t104i35` |
+| 0x81A3EDF6 | 1359 | - | `t104i23` |
 | 0x32B75C2A | 1360 | - | `t107g00` |
 | 0x2CFBF689 | 1361 | - | - |
 | 0x9FE63E22 | 1362 | - | `pass_colb_10` |
@@ -1791,17 +1791,17 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0xF95436AE | 1776 | - | `warp_t131g00` |
 | 0x84CD2B32 | 1777 | - | `warp_t131i01` |
 | 0xEBE19940 | 1778 | - | `warp_t132g00` |
-| 0x6485D410 | 1779 | - | - |
-| 0xFD8C85AA | 1780 | - | - |
+| 0x6485D410 | 1779 | - | `warp_t001d41` |
+| 0xFD8C85AA | 1780 | - | `warp_t001d42` |
 | 0x40093CE5 | 1781 | Is the Mt. Wildwood Summit Mirapo unlocked (Warp #08) | `warp_t102d02` |
 | 0x7566A379 | 1782 | - | - |
 | 0x621BD94D | 1783 | - | `warp_t131d03` |
 | 0xACF880B6 | 1784 | - | `t103d41` |
 | 0x3A69876F | 1785 | - | `t106d33` |
-| 0x866171ED | 1786 | - | - |
-| 0x6F02D4D8 | 1787 | - | - |
-| 0x88BAF9DF | 1788 | - | - |
-| 0xC920E72A | 1789 | - | - |
+| 0x866171ED | 1786 | - | `t001b31` |
+| 0x6F02D4D8 | 1787 | - | `t001b37` |
+| 0x88BAF9DF | 1788 | - | `t001b39` |
+| 0xC920E72A | 1789 | - | `t001b41` |
 | 0xEC9AF46C | 1790 | - | `t100b21` |
 | 0x05F95159 (0x5F95159) | 1791 | - | `t100b27` |
 | 0xE2417C5E | 1792 | - | `t100b29` |
@@ -1859,12 +1859,12 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0x1386E9D9 | 1844 | - | `t131b21` |
 | 0xFD8888F5 | 1845 | - | `t131b23` |
 | 0x330524B5 | 1846 | - | `t132b01` |
-| 0x3C542144 | 1847 | - | - |
-| 0xE0848325 | 1848 | - | - |
-| 0x0E8AE209 (0xE8AE209) | 1849 | - | - |
-| 0xD2B2E1A7 | 1850 | - | - |
-| 0xA724F9F5 | 1851 | - | - |
-| 0xB591561B | 1852 | - | - |
+| 0x3C542144 | 1847 | - | `t200b41` |
+| 0xE0848325 | 1848 | - | `t201b01` |
+| 0x0E8AE209 (0xE8AE209) | 1849 | - | `t201b03` |
+| 0xD2B2E1A7 | 1850 | - | `t201b21` |
+| 0xA724F9F5 | 1851 | - | `t231b01` |
+| 0xB591561B | 1852 | - | `t232b01` |
 | 0x8C7042F0 | 1853 | - | - |
 | 0xFB777266 | 1854 | - | - |
 | 0x627E23DC | 1855 | - | - |
@@ -2641,8 +2641,8 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0xD7C5200E | 66 | - | - |
 | 0x677CF8CA | 67 | - | - |
 | 0x90091C2B | 68 | - | - |
-| 0x4463988F | 71 | - | `good_boy` |
-| 0x3DDE318A | 72 | - | - |
+| 0x4463988F | 71 | Positive Karma | `good_boy` |
+| 0x3DDE318A | 72 | Negative Karma | `bad_boy` |
 | 0x8920FFE7 | 73 | Infinite Tunnel Clear Count? | - |
 | 0x760AB692 | 76 | - | - |
 | 0xABD3BC2C | 77 | - | - |

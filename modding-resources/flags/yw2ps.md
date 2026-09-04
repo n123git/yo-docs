@@ -3164,504 +3164,504 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | $keyFlagID | Slot | Notes | Name |
 |---------|------|-------|------|
 | 0x4FF4F23F | 0 | - | `dummy` |
-| 0x213DF173 | 1 | Uptown Springdale - Treasure Chest #1 | - |
-| 0xB834A0C9 | 2 | Uptown Springdale - Treasure Chest #2 | - |
-| 0xCF33905F | 3 | Uptown Springdale - Treasure Chest #3 | - |
-| 0x515705FC | 4 | Uptown Springdale - Treasure Chest #4 | - |
-| 0x2650356A | 5 | Uptown Springdale - Treasure Chest #5 | - |
-| 0xBF5964D0 | 6 | Uptown Springdale - Treasure Chest #6 | - |
-| 0xC85E5446 | 7 | Uptown Springdale - Treasure Chest #7 | - |
-| 0x58E149D7 | 8 | Uptown Springdale - Treasure Chest #8 | - |
-| 0x2FE67941 | 9 | Uptown Springdale - Treasure Chest #9 | - |
-| 0x4F21F0A4 | 10 | Uptown Springdale - Treasure Chest #10 | - |
-| 0x3826C032 | 11 | Uptown Springdale - Treasure Chest #11 | - |
-| 0x33885E9D | 12 | Uptown Springdale - Treasure Chest #12 | - |
-| 0xAA810F27 | 13 | Uptown Springdale - Treasure Chest #13 | - |
-| 0xDD863FB1 | 14 | Uptown Springdale - Treasure Chest #14 | - |
-| 0x43E2AA12 | 15 | Uptown Springdale - Treasure Chest #15 | - |
-| 0x34E59A84 | 16 | Uptown Springdale - Treasure Chest #16 | - |
-| 0xADECCB3E | 17 | Uptown Springdale - Treasure Chest #17 | - |
-| 0xDAEBFBA8 | 18 | Uptown Springdale - Treasure Chest #18 | - |
-| 0x4A54E639 | 19 | Uptown Springdale - Treasure Chest #19 | - |
-| 0x3D53D6AF | 20 | Uptown Springdale - Treasure Chest #20 | - |
-| 0x5D945F4A | 21 | Uptown Springdale - Treasure Chest #21 | - |
-| 0x64EE2535 | 22 | - | - |
-| 0x765B8ADB | 23 | - | - |
-| 0xE27A579B | 24 | - | - |
-| 0x7B730621 | 25 | - | - |
-| 0x2926843E | 26 | - | - |
-| 0x3B932BD0 | 27 | - | - |
-| 0xFF7F6723 | 28 | - | - |
-| 0x66763699 | 29 | - | - |
-| 0xEDCAC8CD | 30 | - | - |
-| 0xADD31F43 | 31 | - | - |
-| 0x34DA4EF9 | 32 | - | - |
-| 0x43DD7E6F | 33 | - | - |
-| 0x2B476DED | 34 | - | - |
-| 0xE01BBE48 | 35 | - | - |
-| 0x7912EFF2 | 36 | - | - |
-| 0x0E15DF64 (0xE15DF64) | 37 | - | - |
-| 0x90714AC7 | 38 | - | - |
-| 0x36425D55 | 39 | - | - |
-| 0xAF4B0CEF | 40 | - | - |
-| 0xD84C3C79 | 41 | - | - |
-| 0x4628A9DA | 42 | - | - |
-| 0x312F994C | 43 | - | - |
-| 0x18B0CDB6 | 44 | - | - |
-| 0x81B99C0C | 45 | - | - |
-| 0xF6BEAC9A | 46 | - | - |
-| 0x68DA3939 | 47 | - | - |
-| 0x1FDD09AF | 48 | - | - |
-| 0x0A056258 (0xA056258) | 49 | - | - |
-| 0x930C33E2 | 50 | - | - |
-| 0xE40B0374 | 51 | - | - |
-| 0x7A6F96D7 | 52 | - | - |
-| 0x0D68A641 (0xD68A641) | 53 | - | - |
-| 0x9461F7FB | 54 | - | - |
-| 0xE366C76D | 55 | - | - |
-| 0x73D9DAFC | 56 | - | - |
-| 0x04DEEA6A (0x4DEEA6A) | 57 | - | - |
-| 0x6419638F | 58 | - | - |
-| 0x5D6319F0 | 59 | - | - |
-| 0x4FD6B61E | 60 | - | - |
-| 0xD6DFE7A4 | 61 | - | - |
-| 0xA1D8D732 | 62 | - | - |
-| 0xDBF76B5E | 63 | - | - |
-| 0xC942C4B0 | 64 | - | - |
-| 0x10ABB8FB | 65 | - | - |
-| 0x89A2E941 | 66 | - | - |
-| 0x021E1715 (0x21E1715) | 67 | - | - |
-| 0x9B1746AF | 68 | - | - |
-| 0xEC107639 | 69 | - | - |
-| 0x6C8B036D | 70 | - | - |
-| 0xF58252D7 | 71 | - | - |
-| 0x82856241 | 72 | - | - |
-| 0x1CE1F7E2 | 73 | - | - |
-| 0x6BE6C774 | 74 | - | - |
-| 0xF2EF96CE | 75 | - | - |
-| 0x85E8A658 | 76 | - | - |
-| 0x1557BBC9 | 77 | - | - |
-| 0xEA1F71C3 | 78 | - | - |
-| 0x73162079 | 79 | - | - |
-| 0x041110EF (0x41110EF) | 80 | - | - |
-| 0x9A75854C | 81 | - | - |
-| 0xED72B5DA | 82 | - | - |
-| 0x747BE460 | 83 | - | - |
-| 0x037CD4F6 (0x37CD4F6) | 84 | - | - |
-| 0x0FCBD9F5 (0xFCBD9F5) | 85 | - | - |
-| 0x96C2884F | 86 | - | - |
-| 0xE1C5B8D9 | 87 | - | - |
-| 0x7FA12D7A | 88 | - | - |
-| 0x08A61DEC (0x8A61DEC) | 89 | - | - |
-| 0x91AF4C56 | 90 | - | - |
-| 0xE6A87CC0 | 91 | - | - |
-| 0x1D7E761B | 92 | - | - |
-| 0x847727A1 | 93 | - | - |
-| 0xF3701737 | 94 | - | - |
-| 0x6D148294 | 95 | - | - |
-| 0x1A13B202 | 96 | - | - |
-| 0x831AE3B8 | 97 | - | - |
-| 0xF41DD32E | 98 | - | - |
-| 0x64A2CEBF | 99 | - | - |
-| 0x13A5FE29 | 100 | - | - |
-| 0x736277CC | 101 | - | - |
-| 0x0465475A (0x465475A) | 102 | - | - |
-| 0x9D6C16E0 | 103 | - | - |
-| 0xEA6B2676 | 104 | - | - |
-| 0x4A180DB3 | 105 | - | - |
-| 0x58ADA25D | 106 | - | - |
-| 0x07D0ACB8 (0x7D0ACB8) | 107 | - | - |
-| 0x15650356 | 108 | - | - |
-| 0xEC6F0607 | 109 | - | - |
-| 0x756657BD | 110 | - | - |
-| 0xFEDAA9E9 | 111 | - | - |
-| 0x67D3F853 | 112 | - | - |
-| 0x7BF0172E | 113 | - | - |
-| 0xE2F94694 | 114 | - | - |
-| 0x95FE7602 | 115 | - | - |
-| 0x0B9AE3A1 (0xB9AE3A1) | 116 | - | - |
-| 0x7C9DD337 | 117 | - | - |
-| 0xE594828D | 118 | - | - |
-| 0xE0615538 | 119 | - | - |
-| 0x79680482 | 120 | - | - |
-| 0x0E6F3414 (0xE6F3414) | 121 | - | - |
-| 0x900BA1B7 | 122 | - | - |
-| 0xE70C9121 | 123 | - | - |
-| 0xBE5729A0 | 124 | - | - |
-| 0x275E781A | 125 | - | - |
-| 0x5059488C | 126 | - | - |
-| 0xCE3DDD2F | 127 | - | - |
-| 0x38C35B0E | 128 | - | - |
-| 0xF39F88AB | 129 | - | - |
-| 0x6A96D911 | 130 | - | - |
-| 0x1D91E987 | 131 | - | - |
-| 0x83F57C24 | 132 | - | - |
-| 0xF4F24CB2 | 133 | - | - |
-| 0x6DFB1D08 | 134 | - | - |
-| 0xEE9AB813 | 135 | - | - |
-| 0x7793E9A9 | 136 | - | - |
-| 0x0094D93F (0x94D93F) | 137 | - | - |
-| 0x25C66BB6 | 138 | - | - |
-| 0xBCCF3A0C | 139 | - | - |
-| 0xA3521918 | 140 | - | - |
-| 0x3A5B48A2 | 141 | - | - |
-| 0x680ECABD | 142 | - | - |
-| 0xF1079B07 | 143 | - | - |
-| 0xD37CF1B1 | 144 | - | - |
-| 0x18202214 | 145 | - | - |
-| 0x9EB450BA | 146 | - | - |
-| 0x07BD0100 (0x7BD0100) | 147 | - | - |
-| 0x70BA3196 | 148 | - | - |
-| 0x55E8831F | 149 | - | - |
-| 0x48EDB3A7 | 150 | - | - |
-| 0xD1E4E21D | 151 | - | - |
-| 0xFEA5D9D7 | 152 | - | - |
-| 0x6BAAB43C | 154 | - | - |
-| 0xF2A3E586 | 155 | - | - |
-| 0x85A4D510 | 156 | - | - |
-| 0x1BC040B3 | 157 | - | - |
-| 0x6CC77025 | 158 | - | - |
-| 0xF5CE219F | 159 | - | - |
-| 0x82C91109 | 160 | - | - |
-| 0x791F1BD2 | 161 | - | - |
-| 0xE0164A68 | 162 | - | - |
-| 0x97117AFE | 163 | - | - |
-| 0x0975EF5D (0x975EF5D) | 164 | - | - |
-| 0x7E72DFCB | 165 | - | - |
-| 0xE77B8E71 | 166 | - | - |
-| 0x907CBEE7 | 167 | - | - |
-| 0x00C3A376 (0xC3A376) | 168 | - | - |
-| 0x77C493E0 | 169 | - | - |
-| 0x17031A05 | 170 | - | - |
-| 0x60042A93 | 171 | - | - |
-| 0xF90D7B29 | 172 | - | - |
-| 0x3CCCCF94 | 173 | - | - |
-| 0xA5C59E2E | 174 | - | - |
-| 0x63B1C171 | 175 | - | - |
-| 0x71046E9F | 176 | - | - |
-| 0xB5E8226C | 177 | - | - |
-| 0xA75D8D82 | 178 | - | - |
-| 0x880E6BCE | 179 | - | - |
-| 0x11073A74 | 180 | - | - |
-| 0x66000AE2 | 181 | - | - |
-| 0xF8649F41 | 182 | - | - |
-| 0xC5C6CAC5 | 183 | - | - |
-| 0x5CCF9B7F | 184 | - | - |
-| 0x2BC8ABE9 | 185 | - | - |
-| 0xB5AC3E4A | 186 | - | - |
-| 0x7CD1A07F | 187 | - | - |
-| 0xE5D8F1C5 | 188 | - | - |
-| 0x92DFC153 | 189 | - | - |
-| 0x0CBB54F0 (0xCBB54F0) | 190 | - | - |
-| 0x7BBC6466 | 191 | - | - |
-| 0xE2B535DC | 192 | - | - |
-| 0x6E640F91 | 193 | - | - |
-| 0xF76D5E2B | 194 | - | - |
-| 0x806A6EBD | 195 | - | - |
-| 0x1E0EFB1E | 196 | - | - |
-| 0x6909CB88 | 197 | - | - |
-| 0xF0009A32 | 198 | - | - |
-| 0x8707AAA4 | 199 | - | - |
-| 0x17B8B735 | 200 | - | - |
-| 0x60BF87A3 | 201 | - | - |
-| 0x00780E46 (0x780E46) | 202 | - | - |
-| 0x777F3ED0 | 203 | - | - |
-| 0xEE766F6A | 204 | - | - |
-| 0x39027439 | 205 | - | - |
-| 0x2BB7DBD7 | 206 | - | - |
-| 0x19E10D23 | 207 | - | - |
-| 0xCFB8EE3E | 208 | - | - |
-| 0x04E43D9B (0x4E43D9B) | 209 | - | - |
-| 0x280917BE | 210 | - | - |
-| 0xCD4D502A | 211 | - | - |
-| 0x54440190 | 212 | - | - |
-| 0x23433106 | 213 | - | - |
-| 0xBD27A4A5 | 214 | - | - |
-| 0xCA209433 | 215 | - | - |
-| 0x8085F121 | 216 | - | - |
-| 0x198CA09B | 217 | - | - |
-| 0x6E8B900D | 218 | - | - |
-| 0x56DC123C | 219 | - | - |
-| 0xCFD54386 | 220 | - | - |
-| 0xB8D27310 | 221 | - | - |
-| 0x455C9CBA | 222 | - | - |
-| 0xDC55CD00 | 223 | - | - |
-| 0xAB52FD96 | 224 | - | - |
-| 0x35366835 | 225 | - | - |
-| 0x423158A3 | 226 | - | - |
-| 0xDB380919 | 227 | - | - |
-| 0x57E93354 | 228 | - | - |
-| 0xCEE062EE | 229 | - | - |
-| 0xB9E75278 | 230 | - | - |
-| 0x2783C7DB | 231 | - | - |
-| 0x5084F74D | 232 | - | - |
-| 0xC98DA6F7 | 233 | - | - |
-| 0xBE8A9661 | 234 | - | - |
-| 0x2E358BF0 | 235 | - | - |
-| 0x5932BB66 | 236 | - | - |
-| 0x39F53283 | 237 | - | - |
-| 0x4EF20215 | 238 | - | - |
-| 0xD7FB53AF | 239 | - | - |
-| 0x31675261 | 240 | - | - |
-| 0xA86E03DB | 241 | - | - |
-| 0xDF69334D | 242 | - | - |
-| 0x410DA6EE | 243 | - | - |
-| 0xB7F320CF | 244 | - | - |
-| 0x2EFA7175 | 245 | - | - |
-| 0x59FD41E3 | 246 | - | - |
-| 0xC799D440 | 247 | - | - |
-| 0xD7BBAC48 | 248 | - | - |
-| 0x4EB2FDF2 | 249 | - | - |
-| 0x39B5CD64 | 250 | - | - |
-| 0xA7D158C7 | 251 | - | - |
-| 0xD0D66851 | 252 | - | - |
-| 0x49DF39EB | 253 | - | - |
-| 0x1CE77FED | 254 | - | - |
-| 0x85EE2E57 | 255 | - | - |
-| 0xF2E91EC1 | 256 | - | - |
-| 0x6C8D8B62 | 257 | - | - |
-| 0x1B8ABBF4 | 258 | - | - |
-| 0x01E24F55 (0x1E24F55) | 259 | - | - |
-| 0x98EB1EEF | 260 | - | - |
-| 0xEFEC2E79 | 261 | - | - |
-| 0xCABE9CF0 | 262 | - | - |
-| 0x53B7CD4A | 263 | - | - |
-| 0x24B0FDDC | 264 | - | - |
-| 0xBAD4687F | 265 | - | - |
-| 0xB8C9E2D3 | 266 | - | - |
-| 0x21C0B369 | 267 | - | - |
-| 0x56C783FF | 268 | - | - |
-| 0xC8A3165C | 269 | - | - |
-| 0xBFA426CA | 270 | - | - |
-| 0x26AD7770 | 271 | - | - |
-| 0x51AA47E6 | 272 | - | - |
-| 0xC1155A77 | 273 | - | - |
-| 0xB6126AE1 | 274 | - | - |
-| 0xD6D5E304 | 275 | - | - |
-| 0xA1D2D392 | 276 | - | - |
-| 0x38DB8228 | 277 | - | - |
-| 0x4FDCB2BE | 278 | - | - |
-| 0x522788F9 | 279 | - | - |
-| 0xCB2ED943 | 280 | - | - |
-| 0xBC29E9D5 | 281 | - | - |
-| 0x224D7C76 | 282 | - | - |
-| 0x554A4CE0 | 283 | - | - |
-| 0x40922717 | 284 | - | - |
-| 0xD99B76AD | 285 | - | - |
-| 0xAE9C463B | 286 | - | - |
-| 0x30F8D398 | 287 | - | - |
-| 0x47FFE30E | 288 | - | - |
-| 0xDEF6B2B4 | 289 | - | - |
-| 0xCA0A4A70 | 290 | - | - |
-| 0x53031BCA | 291 | - | - |
-| 0x24042B5C | 292 | - | - |
-| 0xBA60BEFF | 293 | - | - |
-| 0xCD678E69 | 294 | - | - |
-| 0x546EDFD3 | 295 | - | - |
-| 0x2369EF45 | 296 | - | - |
-| 0xB3D6F2D4 | 297 | - | - |
-| 0xC4D1C242 | 298 | - | - |
-| 0xA4164BA7 | 299 | - | - |
-| 0xD8BFE59E | 300 | - | - |
-| 0x41B6B424 | 301 | - | - |
-| 0x36B184B2 | 302 | - | - |
-| 0xA8D51111 | 303 | - | - |
-| 0xDFD22187 | 304 | - | - |
-| 0x46DB703D | 305 | - | - |
-| 0x31DC40AB | 306 | - | - |
-| 0xA1635D3A | 307 | - | - |
-| 0xD6646DAC | 308 | - | - |
-| 0xB6A3E449 | 309 | - | - |
-| 0xC1A4D4DF | 310 | - | - |
-| 0x58AD8565 | 311 | - | - |
-| 0x2FAAB5F3 | 312 | - | - |
-| 0x8FD99E36 | 313 | - | - |
-| 0x16D0CF8C | 314 | - | - |
-| 0x9D6C31D8 | 315 | - | - |
-| 0xC2113F3D | 316 | - | - |
-| 0x5B186E87 | 317 | - | - |
-| 0x2C1F5E11 | 318 | - | - |
-| 0xDF140F85 | 319 | - | - |
-| 0x461D5E3F | 320 | - | - |
-| 0x311A6EA9 | 321 | - | - |
-| 0x1448DC20 | 322 | - | - |
-| 0xF38776B5 | 323 | - | - |
-| 0x6A8E270F | 324 | - | - |
-| 0xE132D95B | 325 | - | - |
-| 0x783B88E1 | 326 | - | - |
-| 0x0F3CB877 (0xF3CB877) | 327 | - | - |
-| 0xB654A2F3 | 328 | - | - |
-| 0x2F5DF349 | 329 | - | - |
-| 0x585AC3DF | 330 | - | - |
-| 0x25C8214E | 331 | - | - |
-| 0xBCC170F4 | 332 | - | - |
-| 0xCBC64062 | 333 | - | - |
-| 0x55A2D5C1 | 334 | - | - |
-| 0x22A5E557 | 335 | - | - |
-| 0xBBACB4ED | 336 | - | - |
-| 0xCCAB847B | 337 | - | - |
-| 0x5C1499EA | 338 | - | - |
-| 0x2B13A97C | 339 | - | - |
-| 0x4BD42099 | 340 | - | - |
-| 0x3CD3100F | 341 | - | - |
-| 0xA5DA41B5 | 342 | - | - |
-| 0xD2DD7123 | 343 | - | - |
-| 0x4CB9E480 | 344 | - | - |
-| 0x377D8EA0 | 345 | - | - |
-| 0xAE74DF1A | 346 | - | - |
-| 0xD973EF8C | 347 | - | - |
-| 0x47177A2F | 348 | - | - |
-| 0x30104AB9 | 349 | - | - |
-| 0xA9191B03 | 350 | - | - |
-| 0xDE1E2B95 | 351 | - | - |
-| 0x4EA13604 | 352 | - | - |
-| 0x39A60692 | 353 | - | - |
-| 0x59618F77 | 354 | - | - |
-| 0x2E66BFE1 | 355 | - | - |
-| 0xB76FEE5B | 356 | - | - |
-| 0x601BF508 | 357 | - | - |
-| 0x72AE5AE6 | 358 | - | - |
-| 0x2DD35403 | 359 | - | - |
-| 0x3F66FBED | 360 | - | - |
-| 0xA66FAA57 | 361 | - | - |
-| 0xC66CFEBC | 362 | - | - |
-| 0x5F65AF06 | 363 | - | - |
-| 0x28629F90 | 364 | - | - |
-| 0xB6060A33 | 365 | - | - |
-| 0xC1013AA5 | 366 | - | - |
-| 0x58086B1F | 367 | - | - |
-| 0x2F0F5B89 | 368 | - | - |
-| 0xBFB04618 | 369 | - | - |
-| 0xC8B7768E | 370 | - | - |
-| 0xB8DF9772 | 371 | - | - |
-| 0x21D6C6C8 | 372 | - | - |
-| 0x56D1F65E | 373 | - | - |
-| 0xC8B563FD | 374 | - | - |
-| 0xBFB2536B | 375 | - | - |
-| 0x26BB02D1 | 376 | - | - |
-| 0x51BC3247 | 377 | - | - |
-| 0xC1032FD6 | 378 | - | - |
-| 0xB6041F40 | 379 | - | - |
-| 0xD6C396A5 | 380 | - | - |
-| 0xAA6A389C | 381 | - | - |
-| 0x33636926 | 382 | - | - |
-| 0x446459B0 | 383 | - | - |
-| 0xDA00CC13 | 384 | - | - |
-| 0xAD07FC85 | 385 | - | - |
-| 0x340EAD3F | 386 | - | - |
-| 0x43099DA9 | 387 | - | - |
-| 0xD3B68038 | 388 | - | - |
-| 0xA4B1B0AE | 389 | - | - |
-| 0xC476394B | 390 | - | - |
-| 0xFD0C4334 | 391 | - | - |
-| 0xEFB9ECDA | 392 | - | - |
-| 0xB0C4E23F | 393 | - | - |
-| 0xA2714DD1 | 394 | - | - |
-| 0x3B781C6B | 395 | - | - |
-| 0x5B7B4880 | 396 | - | - |
-| 0xC272193A | 397 | - | - |
-| 0x8152ABB7 | 398 | - | - |
-| 0x93E70459 | 399 | - | - |
-| 0x0AEE55E3 (0xAEE55E3) | 400 | - | - |
-| 0xDCBEFABB | 401 | - | - |
-| 0xCE0B5555 | 402 | - | - |
-| 0x570204EF | 403 | - | - |
-| 0x53E82C71 | 404 | - | - |
-| 0xCAE17DCB | 405 | - | - |
-| 0xBDE64D5D | 406 | - | - |
-| 0x2382D8FE | 407 | - | - |
-| 0x5485E868 | 408 | - | - |
-| 0xCD8CB9D2 | 409 | - | - |
-| 0xBA8B8944 | 410 | - | - |
-| 0x2A3494D5 | 411 | - | - |
-| 0x5D33A443 | 412 | - | - |
-| 0x415D839F | 413 | - | - |
-| 0xD854D225 | 414 | - | - |
-| 0xAF53E2B3 | 415 | - | - |
-| 0x31377710 | 416 | - | - |
-| 0x46304786 | 417 | - | - |
-| 0xDF39163C | 418 | - | - |
-| 0xA83E26AA | 419 | - | - |
-| 0x38813B3B | 420 | - | - |
-| 0x4F860BAD | 421 | - | - |
-| 0x2F418248 | 422 | - | - |
-| 0x163BF837 | 423 | - | - |
-| 0x048E57D9 (0x48E57D9) | 424 | - | - |
-| 0x5BF3593C | 425 | - | - |
-| 0xC2FA0886 | 426 | - | - |
-| 0xB5FD3810 | 427 | - | - |
-| 0x46F66984 | 428 | - | - |
-| 0xDFFF383E | 429 | - | - |
-| 0x6A6510B4 | 430 | - | - |
-| 0x78D0BF5A | 431 | - | - |
-| 0xE1D9EEE0 | 432 | - | - |
-| 0x212B84D2 | 433 | - | - |
-| 0xB822D568 | 434 | - | - |
-| 0xCF25E5FE | 435 | - | - |
-| 0x5141705D | 436 | - | - |
-| 0x264640CB | 437 | - | - |
-| 0xBF4F1171 | 438 | - | - |
-| 0xC84821E7 | 439 | - | - |
-| 0x58F73C76 | 440 | - | - |
-| 0x2FF00CE0 | 441 | - | - |
-| 0x4F378505 | 442 | - | - |
-| 0x3830B593 | 443 | - | - |
-| 0xE9C55C57 | 444 | - | - |
-| 0xD42315F5 | 445 | - | - |
-| 0x1F7FC650 | 446 | - | - |
-| 0x75B83693 | 447 | - | - |
-| 0xECB16729 | 448 | - | - |
-| 0x9BB657BF | 449 | - | - |
-| 0x05D2C21C (0x5D2C21C) | 450 | - | - |
-| 0x72D5F28A | 451 | - | - |
-| 0xEBDCA330 | 452 | - | - |
-| 0xE5CB0F68 | 453 | - | - |
-| 0x5259DBEC | 454 | - | - |
-| 0xCB508A56 | 455 | - | - |
-| 0xBC57BAC0 | 456 | - | - |
-| 0x22332F63 | 457 | - | - |
-| 0x55341FF5 | 458 | - | - |
-| 0xC32E2CD3 | 459 | - | - |
-| 0x65592767 | 460 | - | - |
-| 0x0689125D (0x689125D) | 461 | - | - |
-| 0x19F18D4D | 462 | - | - |
-| 0x8E6E9C64 | 463 | - | - |
-| 0x61ACF75A | 464 | - | - |
-| 0x3A99E6ED | 465 | - | - |
-| 0x8370EC23 | 466 | - | - |
-| 0xFB2D9634 | 467 | - | - |
-| 0xDCB02DA9 | 468 | - | - |
-| 0x3D359EA6 | 469 | - | - |
-| 0x6B24504F | 470 | - | - |
-| 0xFCBB4166 | 471 | - | - |
-| 0x8013EB4C | 472 | - | - |
-| 0x8558E4BE | 473 | - | - |
-| 0xF784E421 | 474 | - | - |
-| 0xE5314BCF | 475 | - | - |
-| 0xBA4C452A | 476 | - | - |
-| 0xA8F9EAC4 | 477 | - | - |
-| 0x21DD073C | 478 | - | - |
-| 0x3368A8D2 | 479 | - | - |
-| 0x51F3EF95 | 480 | - | - |
-| 0xC8FABE2F | 481 | - | - |
-| 0x4346407B | 482 | - | - |
-| 0x1C3B4E9E | 483 | - | - |
-| 0x85321F24 | 484 | - | - |
-| 0xF2352FB2 | 485 | - | - |
-| 0x0E8EE170 (0xE8EE170) | 486 | - | - |
-| 0x9787B0CA | 487 | - | - |
-| 0x2A936FDC | 488 | Uptown Springdale - Treasure Chest #22 | - |
-| 0x7188BBDA | 489 | - | - |
-| 0xC2AB0EDC | 490 | - | - |
-| 0xCC431D5A | 491 | - | - |
-| 0xF912A4B2 | 492 | - | - |
-| 0x001B1F3B (0x1B1F3B) | 493 | - | - |
-| 0x86A6C53B | 494 | - | - |
-| 0x1FAF9481 | 495 | - | - |
-| 0x68A8A417 | 496 | - | - |
-| 0x9BA3F583 | 497 | - | - |
-| 0x02AAA439 (0x2AAA439) | 498 | - | - |
-| 0x9F8043E7 | 499 | - | - |
+| 0x213DF173 | 1 | Uptown Springdale #1a | `tb_t101g00_a_01` |
+| 0xB834A0C9 | 2 | Uptown Springdale #2a | `tb_t101g00_a_02` |
+| 0xCF33905F | 3 | Uptown Springdale #3a | `tb_t101g00_a_03` |
+| 0x515705FC | 4 | Uptown Springdale #4a | `tb_t101g00_a_04` |
+| 0x2650356A | 5 | Uptown Springdale #5a | `tb_t101g00_a_05` |
+| 0xBF5964D0 | 6 | Uptown Springdale #6a | `tb_t101g00_a_06` |
+| 0xC85E5446 | 7 | Uptown Springdale #7a | `tb_t101g00_a_07` |
+| 0x58E149D7 | 8 | Uptown Springdale #8a | `tb_t101g00_a_08` |
+| 0x2FE67941 | 9 | Uptown Springdale #9a | `tb_t101g00_a_09` |
+| 0x4F21F0A4 | 10 | Uptown Springdale #10a | `tb_t101g00_a_10` |
+| 0x3826C032 | 11 | Uptown Springdale #11a | `tb_t101g00_a_11` |
+| 0x33885E9D | 12 | Uptown Springdale #1b | `tb_t101g00_b_01` |
+| 0xAA810F27 | 13 | Uptown Springdale #2b | `tb_t101g00_b_02` |
+| 0xDD863FB1 | 14 | Uptown Springdale #3b | `tb_t101g00_b_03` |
+| 0x43E2AA12 | 15 | Uptown Springdale #4b | `tb_t101g00_b_04` |
+| 0x34E59A84 | 16 | Uptown Springdale #5b | `tb_t101g00_b_05` |
+| 0xADECCB3E | 17 | Uptown Springdale #6b | `tb_t101g00_b_06` |
+| 0xDAEBFBA8 | 18 | Uptown Springdale #7b | `tb_t101g00_b_07` |
+| 0x4A54E639 | 19 | Uptown Springdale #8b | `tb_t101g00_b_08` |
+| 0x3D53D6AF | 20 | Uptown Springdale #9b | `tb_t101g00_b_09` |
+| 0x5D945F4A | 21 | Uptown Springdale #10b | `tb_t101g00_b_10` |
+| 0x64EE2535 | 22 | Shady Back Alley #1a | `tb_t101d01_a_01` |
+| 0x765B8ADB | 23 | Shady Back Alley #1b | `tb_t101d01_b_01` |
+| 0xE27A579B | 24 | Lonely Waterway #1a | `tb_t101d02_a_01` |
+| 0x7B730621 | 25 | Lonely Waterway #2a | `tb_t101d02_a_02` |
+| 0x2926843E | 26 | The Catwalk #1a | `tb_t101d03_a_01` |
+| 0x3B932BD0 | 27 | The Catwalk #1b | `tb_t101d03_b_01` |
+| 0xFF7F6723 | 28 | Desolate Lane #1a | `tb_t101d05_a_01` |
+| 0x66763699 | 29 | Desolate Lane #2a | `tb_t101d05_a_02` |
+| 0xEDCAC8CD | 30 | Desolate Lane #1b | `tb_t101d05_b_01` |
+| 0xADD31F43 | 31 | Springdale Elementary - 1F South #1a | `tb_t101i51_a_01` |
+| 0x34DA4EF9 | 32 | Springdale Elementary - 1F South #2a | `tb_t101i51_a_02` |
+| 0x43DD7E6F | 33 | Springdale Elementary - 1F South #3a | `tb_t101i51_a_03` |
+| 0x2B476DED | 34 | Springdale Elementary - 1F North #1a | `tb_t101i52_a_01` |
+| 0xE01BBE48 | 35 | Springdale Elementary - 2F #1a | `tb_t101i53_a_01` |
+| 0x7912EFF2 | 36 | Springdale Elementary - 2F #2a | `tb_t101i53_a_02` |
+| 0x0E15DF64 (0xE15DF64) | 37 | Springdale Elementary - 2F #3a | `tb_t101i53_a_03` |
+| 0x90714AC7 | 38 | Springdale Elementary - 2F #4a | `tb_t101i53_a_04` |
+| 0x36425D55 | 39 | Springdale Elementary - 3F #1a | `tb_t101i55_a_01` |
+| 0xAF4B0CEF | 40 | Springdale Elementary - 3F #2a | `tb_t101i55_a_02` |
+| 0xD84C3C79 | 41 | Springdale Elementary - 3F #3a | `tb_t101i55_a_03` |
+| 0x4628A9DA | 42 | Springdale Elementary - 3F #4a | `tb_t101i55_a_04` |
+| 0x312F994C | 43 | Springdale Elementary - 3F #5a | `tb_t101i55_a_05` |
+| 0x18B0CDB6 | 44 | Mt. Wildwood #1a | `tb_t102g00_a_01` |
+| 0x81B99C0C | 45 | Mt. Wildwood #2a | `tb_t102g00_a_02` |
+| 0xF6BEAC9A | 46 | Mt. Wildwood #3a | `tb_t102g00_a_03` |
+| 0x68DA3939 | 47 | Mt. Wildwood #4a | `tb_t102g00_a_04` |
+| 0x1FDD09AF | 48 | Mt. Wildwood #5a | `tb_t102g00_a_05` |
+| 0x0A056258 (0xA056258) | 49 | Mt. Wildwood #1b | `tb_t102g00_b_01` |
+| 0x930C33E2 | 50 | Mt. Wildwood #2b | `tb_t102g00_b_02` |
+| 0xE40B0374 | 51 | Mt. Wildwood #3b | `tb_t102g00_b_03` |
+| 0x7A6F96D7 | 52 | Mt. Wildwood #4b | `tb_t102g00_b_04` |
+| 0x0D68A641 (0xD68A641) | 53 | Mt. Wildwood #5b | `tb_t102g00_b_05` |
+| 0x9461F7FB | 54 | Mt. Wildwood #6b | `tb_t102g00_b_06` |
+| 0xE366C76D | 55 | Mt. Wildwood #7b | `tb_t102g00_b_07` |
+| 0x73D9DAFC | 56 | Mt. Wildwood #8b | `tb_t102g00_b_08` |
+| 0x04DEEA6A (0x4DEEA6A) | 57 | Mt. Wildwood #9b | `tb_t102g00_b_09` |
+| 0x6419638F | 58 | Mt. Wildwood #10b | `tb_t102g00_b_10` |
+| 0x5D6319F0 | 59 | Mt. Wildwood Trail #1a | `tb_t102d01_a_01` |
+| 0x4FD6B61E | 60 | Mt. Wildwood Trail #1b | `tb_t102d01_b_01` |
+| 0xD6DFE7A4 | 61 | Mt. Wildwood Trail #2b | `tb_t102d01_b_02` |
+| 0xA1D8D732 | 62 | Mt. Wildwood Trail #3b | `tb_t102d01_b_03` |
+| 0xDBF76B5E | 63 | Mt. Wildwood Summit #1a | `tb_t102d02_a_01` |
+| 0xC942C4B0 | 64 | Mt. Wildwood Summit #1b | `tb_t102d02_b_01` |
+| 0x10ABB8FB | 65 | Jumbo Slider #1a | `tb_t102d03_a_01` |
+| 0x89A2E941 | 66 | Jumbo Slider #2a | `tb_t102d03_a_02` |
+| 0x021E1715 (0x21E1715) | 67 | Jumbo Slider #1b | `tb_t102d03_b_01` |
+| 0x9B1746AF | 68 | Jumbo Slider #2b | `tb_t102d03_b_02` |
+| 0xEC107639 | 69 | Jumbo Slider #3b | `tb_t102d03_b_03` |
+| 0x6C8B036D | 70 | Abandoned Tunnel West #1a | `tb_t102d31_a_01` |
+| 0xF58252D7 | 71 | Abandoned Tunnel West #2a | `tb_t102d31_a_02` |
+| 0x82856241 | 72 | Abandoned Tunnel West #3a | `tb_t102d31_a_03` |
+| 0x1CE1F7E2 | 73 | Abandoned Tunnel West #4a | `tb_t102d31_a_04` |
+| 0x6BE6C774 | 74 | Abandoned Tunnel West #5a | `tb_t102d31_a_05` |
+| 0xF2EF96CE | 75 | Abandoned Tunnel West #6a | `tb_t102d31_a_06` |
+| 0x85E8A658 | 76 | Abandoned Tunnel West #7a | `tb_t102d31_a_07` |
+| 0x1557BBC9 | 77 | Abandoned Tunnel West #8a | `tb_t102d31_a_08` |
+| 0xEA1F71C3 | 78 | Abandoned Tunnel East #1a | `tb_t102d32_a_01` |
+| 0x73162079 | 79 | Abandoned Tunnel East #2a | `tb_t102d32_a_02` |
+| 0x041110EF (0x41110EF) | 80 | Abandoned Tunnel East #3a | `tb_t102d32_a_03` |
+| 0x9A75854C | 81 | Abandoned Tunnel East #4a | `tb_t102d32_a_04` |
+| 0xED72B5DA | 82 | Abandoned Tunnel East #5a | `tb_t102d32_a_05` |
+| 0x747BE460 | 83 | Abandoned Tunnel East #6a | `tb_t102d32_a_06` |
+| 0x037CD4F6 (0x37CD4F6) | 84 | Abandoned Tunnel East #7a | `tb_t102d32_a_07` |
+| 0x0FCBD9F5 (0xFCBD9F5) | 85 | Blossom Heights #1a | `tb_t103g00_a_01` |
+| 0x96C2884F | 86 | Blossom Heights #2a | `tb_t103g00_a_02` |
+| 0xE1C5B8D9 | 87 | Blossom Heights #3a | `tb_t103g00_a_03` |
+| 0x7FA12D7A | 88 | Blossom Heights #4a | `tb_t103g00_a_04` |
+| 0x08A61DEC (0x8A61DEC) | 89 | Blossom Heights #5a | `tb_t103g00_a_05` |
+| 0x91AF4C56 | 90 | Blossom Heights #6a | `tb_t103g00_a_06` |
+| 0xE6A87CC0 | 91 | Blossom Heights #7a | `tb_t103g00_a_07` |
+| 0x1D7E761B | 92 | Blossom Heights #1b | `tb_t103g00_b_01` |
+| 0x847727A1 | 93 | Blossom Heights #2b | `tb_t103g00_b_02` |
+| 0xF3701737 | 94 | Blossom Heights #3b | `tb_t103g00_b_03` |
+| 0x6D148294 | 95 | Blossom Heights #4b | `tb_t103g00_b_04` |
+| 0x1A13B202 | 96 | Blossom Heights #5b | `tb_t103g00_b_05` |
+| 0x831AE3B8 | 97 | Blossom Heights #6b | `tb_t103g00_b_06` |
+| 0xF41DD32E | 98 | Blossom Heights #7b | `tb_t103g00_b_07` |
+| 0x64A2CEBF | 99 | Blossom Heights #8b | `tb_t103g00_b_08` |
+| 0x13A5FE29 | 100 | Blossom Heights #9b | `tb_t103g00_b_09` |
+| 0x736277CC | 101 | Blossom Heights #10b | `tb_t103g00_b_10` |
+| 0x0465475A (0x465475A) | 102 | Blossom Heights #11b | `tb_t103g00_b_11` |
+| 0x9D6C16E0 | 103 | Blossom Heights #12b | `tb_t103g00_b_12` |
+| 0xEA6B2676 | 104 | Blossom Heights #13b | `tb_t103g00_b_13` |
+| 0x4A180DB3 | 105 | Tucked Away Lot #1a | `tb_t103d01_a_01` |
+| 0x58ADA25D | 106 | Tucked Away Lot #1b | `tb_t103d01_b_01` |
+| 0x07D0ACB8 (0x7D0ACB8) | 107 | Hidden Side Street #1a | `tb_t103d03_a_01` |
+| 0x15650356 | 108 | Hidden Side Street #1b | `tb_t103d03_b_01` |
+| 0xEC6F0607 | 109 | Secret Byway #1a | `tb_t103d11_a_01` |
+| 0x756657BD | 110 | Secret Byway #2a | `tb_t103d11_a_02` |
+| 0xFEDAA9E9 | 111 | Secret Byway #1b | `tb_t103d11_b_01` |
+| 0x67D3F853 | 112 | Secret Byway #2b | `tb_t103d11_b_02` |
+| 0x7BF0172E | 113 | Old Mansion - Main House #1a | `tb_t103d31_a_01` |
+| 0xE2F94694 | 114 | Old Mansion - Main House #2a | `tb_t103d31_a_02` |
+| 0x95FE7602 | 115 | Old Mansion - Main House #3a | `tb_t103d31_a_03` |
+| 0x0B9AE3A1 (0xB9AE3A1) | 116 | Old Mansion - Main House #4a | `tb_t103d31_a_04` |
+| 0x7C9DD337 | 117 | Old Mansion - Main House #5a | `tb_t103d31_a_05` |
+| 0xE594828D | 118 | Old Mansion - Main House #6a | `tb_t103d31_a_06` |
+| 0xE0615538 | 119 | Old Mansion - Main House Attic #1a | `tb_t103d35_a_01` |
+| 0x79680482 | 120 | Old Mansion - Main House Attic #2a | `tb_t103d35_a_02` |
+| 0x0E6F3414 (0xE6F3414) | 121 | Old Mansion - Main House Attic #3a | `tb_t103d35_a_03` |
+| 0x900BA1B7 | 122 | Old Mansion - Main House Attic #4a | `tb_t103d35_a_04` |
+| 0xE70C9121 | 123 | Old Mansion - Main House Attic #5a | `tb_t103d35_a_05` |
+| 0xBE5729A0 | 124 | Infinite Inferno - 1st Circle #1a | `tb_t103d41_a_01` |
+| 0x275E781A | 125 | Infinite Inferno - 1st Circle #2a | `tb_t103d41_a_02` |
+| 0x5059488C | 126 | Infinite Inferno - 1st Circle #3a | `tb_t103d41_a_03` |
+| 0xCE3DDD2F | 127 | Infinite Inferno - 1st Circle #4a | `tb_t103d41_a_04` |
+| 0x38C35B0E | 128 | Infinite Inferno - 2nd Circle #1a | `tb_t103d42_a_01` |
+| 0xF39F88AB | 129 | Infinite Inferno - 3rd Circle #1a | `tb_t103d43_a_01` |
+| 0x6A96D911 | 130 | Infinite Inferno - 3rd Circle #2a | `tb_t103d43_a_02` |
+| 0x1D91E987 | 131 | Infinite Inferno - 3rd Circle #3a | `tb_t103d43_a_03` |
+| 0x83F57C24 | 132 | Infinite Inferno - 3rd Circle #4a | `tb_t103d43_a_04` |
+| 0xF4F24CB2 | 133 | Infinite Inferno - 3rd Circle #5a | `tb_t103d43_a_05` |
+| 0x6DFB1D08 | 134 | Infinite Inferno - 3rd Circle #6a | `tb_t103d43_a_06` |
+| 0xEE9AB813 | 135 | Infinite Inferno - 4th Circle #1a | `tb_t103d44_a_01` |
+| 0x7793E9A9 | 136 | Infinite Inferno - 4th Circle #2a | `tb_t103d44_a_02` |
+| 0x0094D93F (0x94D93F) | 137 | Infinite Inferno - 4th Circle #3a | `tb_t103d44_a_03` |
+| 0x25C66BB6 | 138 | Infinite Inferno - 5th Circle #1a | `tb_t103d45_a_01` |
+| 0xBCCF3A0C | 139 | Infinite Inferno - 5th Circle #2a | `tb_t103d45_a_02` |
+| 0xA3521918 | 140 | Infinite Inferno - 6th Circle #1a | `tb_t103d46_a_01` |
+| 0x3A5B48A2 | 141 | Infinite Inferno - 6th Circle #2a | `tb_t103d46_a_02` |
+| 0x680ECABD | 142 | Infinite Inferno - 7th Circle #1a | `tb_t103d47_a_01` |
+| 0xF1079B07 | 143 | Infinite Inferno - 7th Circle #2a | `tb_t103d47_a_02` |
+| 0xD37CF1B1 | 144 | Divine Paradise - 1F #1a | `tb_t103d50_a_01` |
+| 0x18202214 | 145 | Divine Paradise - 2F #1a | `tb_t103d51_a_01` |
+| 0x9EB450BA | 146 | Divine Paradise - 3F #1a | `tb_t103d52_a_01` |
+| 0x07BD0100 (0x7BD0100) | 147 | Divine Paradise - 3F #2a | `tb_t103d52_a_02` |
+| 0x70BA3196 | 148 | Divine Paradise - 3F #3a | `tb_t103d52_a_03` |
+| 0x55E8831F | 149 | Divine Paradise - 4F #1a | `tb_t103d53_a_01` |
+| 0x48EDB3A7 | 150 | Divine Paradise - 5F #1a | `tb_t103d54_a_01` |
+| 0xD1E4E21D | 151 | Divine Paradise - 5F #2a | `tb_t103d54_a_02` |
+| 0xFEA5D9D7 | 152 | Jumbo Slider #3a | `tb_t102d03_a_03` |
+| 0x6BAAB43C | 154 | Downtown Springdale #1a | `tb_t104g00_a_01` |
+| 0xF2A3E586 | 155 | Downtown Springdale #2a | `tb_t104g00_a_02` |
+| 0x85A4D510 | 156 | Downtown Springdale #3a | `tb_t104g00_a_03` |
+| 0x1BC040B3 | 157 | Downtown Springdale #4a | `tb_t104g00_a_04` |
+| 0x6CC77025 | 158 | Downtown Springdale #5a | `tb_t104g00_a_05` |
+| 0xF5CE219F | 159 | Downtown Springdale #6a | `tb_t104g00_a_06` |
+| 0x82C91109 | 160 | Downtown Springdale #7a | `tb_t104g00_a_07` |
+| 0x791F1BD2 | 161 | Downtown Springdale #1b | `tb_t104g00_b_01` |
+| 0xE0164A68 | 162 | Downtown Springdale #2b | `tb_t104g00_b_02` |
+| 0x97117AFE | 163 | Downtown Springdale #3b | `tb_t104g00_b_03` |
+| 0x0975EF5D (0x975EF5D) | 164 | Downtown Springdale #4b | `tb_t104g00_b_04` |
+| 0x7E72DFCB | 165 | Downtown Springdale #5b | `tb_t104g00_b_05` |
+| 0xE77B8E71 | 166 | Downtown Springdale #6b | `tb_t104g00_b_06` |
+| 0x907CBEE7 | 167 | Downtown Springdale #7b | `tb_t104g00_b_07` |
+| 0x00C3A376 (0xC3A376) | 168 | Downtown Springdale #8b | `tb_t104g00_b_08` |
+| 0x77C493E0 | 169 | Downtown Springdale #9b | `tb_t104g00_b_09` |
+| 0x17031A05 | 170 | Downtown Springdale #10b | `tb_t104g00_b_10` |
+| 0x60042A93 | 171 | Downtown Springdale #11b | `tb_t104g00_b_11` |
+| 0xF90D7B29 | 172 | Downtown Springdale #12b | `tb_t104g00_b_12` |
+| 0x3CCCCF94 | 173 | Academy Shortcut #1b | `tb_t104d01_b_01` |
+| 0xA5C59E2E | 174 | Academy Shortcut #2b | `tb_t104d01_b_02` |
+| 0x63B1C171 | 175 | Behind Frostia’s Place #1a | `tb_t104d03_a_01` |
+| 0x71046E9F | 176 | Behind Frostia’s Place #1b | `tb_t104d03_b_01` |
+| 0xB5E8226C | 177 | Delivery Bay #1a | `tb_t104d05_a_01` |
+| 0xA75D8D82 | 178 | Delivery Bay #1b | `tb_t104d05_b_01` |
+| 0x880E6BCE | 179 | Springdale Business Tower - 4F #1a | `tb_t104d11_a_01` |
+| 0x11073A74 | 180 | Springdale Business Tower - 4F #2a | `tb_t104d11_a_02` |
+| 0x66000AE2 | 181 | Springdale Business Tower - 4F #3a | `tb_t104d11_a_03` |
+| 0xF8649F41 | 182 | Springdale Business Tower - 4F #4a | `tb_t104d11_a_04` |
+| 0xC5C6CAC5 | 183 | Springdale Business Tower - 13F #1a | `tb_t104d13_a_01` |
+| 0x5CCF9B7F | 184 | Springdale Business Tower - 13F #2a | `tb_t104d13_a_02` |
+| 0x2BC8ABE9 | 185 | Springdale Business Tower - 13F #3a | `tb_t104d13_a_03` |
+| 0xB5AC3E4A | 186 | Springdale Business Tower - 13F #4a | `tb_t104d13_a_04` |
+| 0x7CD1A07F | 187 | Shopper’s Row #1a | `tb_t105g00_a_01` |
+| 0xE5D8F1C5 | 188 | Shopper’s Row #2a | `tb_t105g00_a_02` |
+| 0x92DFC153 | 189 | Shopper’s Row #3a | `tb_t105g00_a_03` |
+| 0x0CBB54F0 (0xCBB54F0) | 190 | Shopper’s Row #4a | `tb_t105g00_a_04` |
+| 0x7BBC6466 | 191 | Shopper’s Row #5a | `tb_t105g00_a_05` |
+| 0xE2B535DC | 192 | Shopper’s Row #6a | `tb_t105g00_a_06` |
+| 0x6E640F91 | 193 | Shopper’s Row #1b | `tb_t105g00_b_01` |
+| 0xF76D5E2B | 194 | Shopper’s Row #2b | `tb_t105g00_b_02` |
+| 0x806A6EBD | 195 | Shopper’s Row #3b | `tb_t105g00_b_03` |
+| 0x1E0EFB1E | 196 | Shopper’s Row #4b | `tb_t105g00_b_04` |
+| 0x6909CB88 | 197 | Shopper’s Row #5b | `tb_t105g00_b_05` |
+| 0xF0009A32 | 198 | Shopper’s Row #6b | `tb_t105g00_b_06` |
+| 0x8707AAA4 | 199 | Shopper’s Row #7b | `tb_t105g00_b_07` |
+| 0x17B8B735 | 200 | Shopper’s Row #8b | `tb_t105g00_b_08` |
+| 0x60BF87A3 | 201 | Shopper’s Row #9b | `tb_t105g00_b_09` |
+| 0x00780E46 (0x780E46) | 202 | Shopper’s Row #10b | `tb_t105g00_b_10` |
+| 0x777F3ED0 | 203 | Shopper’s Row #11b | `tb_t105g00_b_11` |
+| 0xEE766F6A | 204 | Shopper’s Row #12b | `tb_t105g00_b_12` |
+| 0x39027439 | 205 | Shopping Street Narrows #1a | `tb_t105d01_a_01` |
+| 0x2BB7DBD7 | 206 | Shopping Street Narrows #1b | `tb_t105d01_b_01` |
+| 0x19E10D23 | 207 | Tranquility Apts. - A-201 #1a | `tb_t105d12_a_01` |
+| 0xCFB8EE3E | 208 | Tranquility Apts. - B-102 #1a | `tb_t105d14_a_01` |
+| 0x04E43D9B (0x4E43D9B) | 209 | Tranquility Apts. - B-201 #1a | `tb_t105d15_a_01` |
+| 0x280917BE | 210 | Tranquility Apts. - C-303 #1a | `tb_t105d22_a_01` |
+| 0xCD4D502A | 211 | Nocturne Hospital - 1F #1a | `tb_t105d41_a_01` |
+| 0x54440190 | 212 | Nocturne Hospital - 1F #2a | `tb_t105d41_a_02` |
+| 0x23433106 | 213 | Nocturne Hospital - 1F #3a | `tb_t105d41_a_03` |
+| 0xBD27A4A5 | 214 | Nocturne Hospital - 1F #4a | `tb_t105d41_a_04` |
+| 0xCA209433 | 215 | Nocturne Hospital - 1F #5a | `tb_t105d41_a_05` |
+| 0x8085F121 | 216 | Nocturne Hospital - 2F #1a | `tb_t105d43_a_01` |
+| 0x198CA09B | 217 | Nocturne Hospital - 2F #2a | `tb_t105d43_a_02` |
+| 0x6E8B900D | 218 | Nocturne Hospital - 2F #3a | `tb_t105d43_a_03` |
+| 0x56DC123C | 219 | Nocturne Hospital - 3F #1a | `tb_t105d45_a_01` |
+| 0xCFD54386 | 220 | Nocturne Hospital - 3F #2a | `tb_t105d45_a_02` |
+| 0xB8D27310 | 221 | Nocturne Hospital - 3F #3a | `tb_t105d45_a_03` |
+| 0x455C9CBA | 222 | Breezy Hills #1a | `tb_t106g00_a_01` |
+| 0xDC55CD00 | 223 | Breezy Hills #2a | `tb_t106g00_a_02` |
+| 0xAB52FD96 | 224 | Breezy Hills #3a | `tb_t106g00_a_03` |
+| 0x35366835 | 225 | Breezy Hills #4a | `tb_t106g00_a_04` |
+| 0x423158A3 | 226 | Breezy Hills #5a | `tb_t106g00_a_05` |
+| 0xDB380919 | 227 | Breezy Hills #6a | `tb_t106g00_a_06` |
+| 0x57E93354 | 228 | Breezy Hills #1b | `tb_t106g00_b_01` |
+| 0xCEE062EE | 229 | Breezy Hills #2b | `tb_t106g00_b_02` |
+| 0xB9E75278 | 230 | Breezy Hills #3b | `tb_t106g00_b_03` |
+| 0x2783C7DB | 231 | Breezy Hills #4b | `tb_t106g00_b_04` |
+| 0x5084F74D | 232 | Breezy Hills #5b | `tb_t106g00_b_05` |
+| 0xC98DA6F7 | 233 | Breezy Hills #6b | `tb_t106g00_b_06` |
+| 0xBE8A9661 | 234 | Breezy Hills #7b | `tb_t106g00_b_07` |
+| 0x2E358BF0 | 235 | Breezy Hills #8b | `tb_t106g00_b_08` |
+| 0x5932BB66 | 236 | Breezy Hills #9b | `tb_t106g00_b_09` |
+| 0x39F53283 | 237 | Breezy Hills #10b | `tb_t106g00_b_10` |
+| 0x4EF20215 | 238 | Breezy Hills #11b | `tb_t106g00_b_11` |
+| 0xD7FB53AF | 239 | Breezy Hills #12b | `tb_t106g00_b_12` |
+| 0x31675261 | 240 | Gourd Pond Museum - 1F #1a | `tb_t106d31_a_01` |
+| 0xA86E03DB | 241 | Gourd Pond Museum - 1F #2a | `tb_t106d31_a_02` |
+| 0xDF69334D | 242 | Gourd Pond Museum - 1F #3a | `tb_t106d31_a_03` |
+| 0x410DA6EE | 243 | Gourd Pond Museum - 1F #4a | `tb_t106d31_a_04` |
+| 0xB7F320CF | 244 | Gourd Pond Museum - 2F #1a | `tb_t106d32_a_01` |
+| 0x2EFA7175 | 245 | Gourd Pond Museum - 2F #2a | `tb_t106d32_a_02` |
+| 0x59FD41E3 | 246 | Gourd Pond Museum - 2F #3a | `tb_t106d32_a_03` |
+| 0xC799D440 | 247 | Gourd Pond Museum - 2F #4a | `tb_t106d32_a_04` |
+| 0xD7BBAC48 | 248 | Yo-kai World - Entry Hall #1a | `tb_t001d42_a_01` |
+| 0x4EB2FDF2 | 249 | Yo-kai World - Entry Hall #2a | `tb_t001d42_a_02` |
+| 0x39B5CD64 | 250 | Yo-kai World - Entry Hall #3a | `tb_t001d42_a_03` |
+| 0xA7D158C7 | 251 | Yo-kai World - Entry Hall #4a | `tb_t001d42_a_04` |
+| 0xD0D66851 | 252 | Yo-kai World - Entry Hall #5a | `tb_t001d42_a_05` |
+| 0x49DF39EB | 253 | Yo-kai World - Entry Hall #6a | `tb_t001d42_a_06` |
+| 0x1CE77FED | 254 | Yo-kai World - Liar Mountain #1a | `tb_t001d43_a_01` |
+| 0x85EE2E57 | 255 | Yo-kai World - Liar Mountain #2a | `tb_t001d43_a_02` |
+| 0xF2E91EC1 | 256 | Yo-kai World - Liar Mountain #3a | `tb_t001d43_a_03` |
+| 0x6C8D8B62 | 257 | Yo-kai World - Liar Mountain #4a | `tb_t001d43_a_04` |
+| 0x1B8ABBF4 | 258 | Yo-kai World - Liar Mountain #5a | `tb_t001d43_a_05` |
+| 0x01E24F55 (0x1E24F55) | 259 | Yo-kai World - Hooligan Road #1a | `tb_t001d44_a_01` |
+| 0x98EB1EEF | 260 | Yo-kai World - Hooligan Road #2a | `tb_t001d44_a_02` |
+| 0xEFEC2E79 | 261 | Yo-kai World - Hooligan Road #3a | `tb_t001d44_a_03` |
+| 0xCABE9CF0 | 262 | Yo-kai World - Hungry Pass #1a | `tb_t001d45_a_01` |
+| 0x53B7CD4A | 263 | Yo-kai World - Hungry Pass #2a | `tb_t001d45_a_02` |
+| 0x24B0FDDC | 264 | Yo-kai World - Hungry Pass #3a | `tb_t001d45_a_03` |
+| 0xBAD4687F | 265 | Yo-kai World - Hungry Pass #4a | `tb_t001d45_a_04` |
+| 0xB8C9E2D3 | 266 | Springdale Underground Waterway #1a | `tb_t100d00_a_01` |
+| 0x21C0B369 | 267 | Springdale Underground Waterway #2a | `tb_t100d00_a_02` |
+| 0x56C783FF | 268 | Springdale Underground Waterway #3a | `tb_t100d00_a_03` |
+| 0xC8A3165C | 269 | Springdale Underground Waterway #4a | `tb_t100d00_a_04` |
+| 0xBFA426CA | 270 | Springdale Underground Waterway #5a | `tb_t100d00_a_05` |
+| 0x26AD7770 | 271 | Springdale Underground Waterway #6a | `tb_t100d00_a_06` |
+| 0x51AA47E6 | 272 | Springdale Underground Waterway #7a | `tb_t100d00_a_07` |
+| 0xC1155A77 | 273 | Springdale Underground Waterway #8a | `tb_t100d00_a_08` |
+| 0xB6126AE1 | 274 | Springdale Underground Waterway #9a | `tb_t100d00_a_09` |
+| 0xD6D5E304 | 275 | Springdale Underground Waterway #10a | `tb_t100d00_a_10` |
+| 0xA1D2D392 | 276 | Springdale Underground Waterway #11a | `tb_t100d00_a_11` |
+| 0x38DB8228 | 277 | Springdale Underground Waterway #12a | `tb_t100d00_a_12` |
+| 0x4FDCB2BE | 278 | Springdale Underground Waterway #13a | `tb_t100d00_a_13` |
+| 0x522788F9 | 279 | Excellent Tower #1a | `tb_t107g00_a_01` |
+| 0xCB2ED943 | 280 | Excellent Tower #2a | `tb_t107g00_a_02` |
+| 0xBC29E9D5 | 281 | Excellent Tower #3a | `tb_t107g00_a_03` |
+| 0x224D7C76 | 282 | Excellent Tower #4a | `tb_t107g00_a_04` |
+| 0x554A4CE0 | 283 | Excellent Tower #5a | `tb_t107g00_a_05` |
+| 0x40922717 | 284 | Excellent Tower #1b | `tb_t107g00_b_01` |
+| 0xD99B76AD | 285 | Excellent Tower #2b | `tb_t107g00_b_02` |
+| 0xAE9C463B | 286 | Excellent Tower #3b | `tb_t107g00_b_03` |
+| 0x30F8D398 | 287 | Excellent Tower #4b | `tb_t107g00_b_04` |
+| 0x47FFE30E | 288 | Excellent Tower #5b | `tb_t107g00_b_05` |
+| 0xDEF6B2B4 | 289 | Excellent Tower #6b | `tb_t107g00_b_06` |
+| 0xCA0A4A70 | 290 | Harrisville #1a | `tb_t131g00_a_01` |
+| 0x53031BCA | 291 | Harrisville #2a | `tb_t131g00_a_02` |
+| 0x24042B5C | 292 | Harrisville #3a | `tb_t131g00_a_03` |
+| 0xBA60BEFF | 293 | Harrisville #4a | `tb_t131g00_a_04` |
+| 0xCD678E69 | 294 | Harrisville #5a | `tb_t131g00_a_05` |
+| 0x546EDFD3 | 295 | Harrisville #6a | `tb_t131g00_a_06` |
+| 0x2369EF45 | 296 | Harrisville #7a | `tb_t131g00_a_07` |
+| 0xB3D6F2D4 | 297 | Harrisville #8a | `tb_t131g00_a_08` |
+| 0xC4D1C242 | 298 | Harrisville #9a | `tb_t131g00_a_09` |
+| 0xA4164BA7 | 299 | Harrisville #10a | `tb_t131g00_a_10` |
+| 0xD8BFE59E | 300 | Harrisville #1b | `tb_t131g00_b_01` |
+| 0x41B6B424 | 301 | Harrisville #2b | `tb_t131g00_b_02` |
+| 0x36B184B2 | 302 | Harrisville #3b | `tb_t131g00_b_03` |
+| 0xA8D51111 | 303 | Harrisville #4b | `tb_t131g00_b_04` |
+| 0xDFD22187 | 304 | Harrisville #5b | `tb_t131g00_b_05` |
+| 0x46DB703D | 305 | Harrisville #6b | `tb_t131g00_b_06` |
+| 0x31DC40AB | 306 | Harrisville #7b | `tb_t131g00_b_07` |
+| 0xA1635D3A | 307 | Harrisville #8b | `tb_t131g00_b_08` |
+| 0xD6646DAC | 308 | Harrisville #9b | `tb_t131g00_b_09` |
+| 0xB6A3E449 | 309 | Harrisville #10b | `tb_t131g00_b_10` |
+| 0xC1A4D4DF | 310 | Harrisville #11b | `tb_t131g00_b_11` |
+| 0x58AD8565 | 311 | Harrisville #12b | `tb_t131g00_b_12` |
+| 0x2FAAB5F3 | 312 | Harrisville #13b | `tb_t131g00_b_13` |
+| 0x8FD99E36 | 313 | Rice Paddy Path #1a | `tb_t131d01_a_01` |
+| 0x16D0CF8C | 314 | Rice Paddy Path #2a | `tb_t131d01_a_02` |
+| 0x9D6C31D8 | 315 | Rice Paddy Path #1b | `tb_t131d01_b_01` |
+| 0xC2113F3D | 316 | Fullface Rock #1a | `tb_t131d03_a_01` |
+| 0x5B186E87 | 317 | Fullface Rock #2a | `tb_t131d03_a_02` |
+| 0x2C1F5E11 | 318 | Fullface Rock #3a | `tb_t131d03_a_03` |
+| 0xDF140F85 | 319 | Cicada Canyon #1a | `tb_t131d04_a_01` |
+| 0x461D5E3F | 320 | Cicada Canyon #2a | `tb_t131d04_a_02` |
+| 0x311A6EA9 | 321 | Cicada Canyon #3a | `tb_t131d04_a_03` |
+| 0x1448DC20 | 322 | Mt. Middleton Summit #1a | `tb_t131d05_a_01` |
+| 0xF38776B5 | 323 | Harrisville Station Plaza #1a | `tb_t132g00_a_01` |
+| 0x6A8E270F | 324 | Harrisville Station Plaza #2a | `tb_t132g00_a_02` |
+| 0xE132D95B | 325 | Harrisville Station Plaza #1b | `tb_t132g00_b_01` |
+| 0x783B88E1 | 326 | Harrisville Station Plaza #2b | `tb_t132g00_b_02` |
+| 0x0F3CB877 (0xF3CB877) | 327 | Harrisville Station Plaza #3b | `tb_t132g00_b_03` |
+| 0xB654A2F3 | 328 | Alley off the Plaza #1a | `tb_t132d01_a_01` |
+| 0x2F5DF349 | 329 | Alley off the Plaza #2a | `tb_t132d01_a_02` |
+| 0x585AC3DF | 330 | Alley off the Plaza #3a | `tb_t132d01_a_03` |
+| 0x25C8214E | 331 | San Fantastico #1a | `tb_t121g00_a_01` |
+| 0xBCC170F4 | 332 | San Fantastico #2a | `tb_t121g00_a_02` |
+| 0xCBC64062 | 333 | San Fantastico #3a | `tb_t121g00_a_03` |
+| 0x55A2D5C1 | 334 | San Fantastico #4a | `tb_t121g00_a_04` |
+| 0x22A5E557 | 335 | San Fantastico #5a | `tb_t121g00_a_05` |
+| 0xBBACB4ED | 336 | San Fantastico #6a | `tb_t121g00_a_06` |
+| 0xCCAB847B | 337 | San Fantastico #7a | `tb_t121g00_a_07` |
+| 0x5C1499EA | 338 | San Fantastico #8a | `tb_t121g00_a_08` |
+| 0x2B13A97C | 339 | San Fantastico #9a | `tb_t121g00_a_09` |
+| 0x4BD42099 | 340 | San Fantastico #10a | `tb_t121g00_a_10` |
+| 0x3CD3100F | 341 | San Fantastico #11a | `tb_t121g00_a_11` |
+| 0xA5DA41B5 | 342 | San Fantastico #12a | `tb_t121g00_a_12` |
+| 0xD2DD7123 | 343 | San Fantastico #13a | `tb_t121g00_a_13` |
+| 0x4CB9E480 | 344 | San Fantastico #14a | `tb_t121g00_a_14` |
+| 0x377D8EA0 | 345 | San Fantastico #1b | `tb_t121g00_b_01` |
+| 0xAE74DF1A | 346 | San Fantastico #2b | `tb_t121g00_b_02` |
+| 0xD973EF8C | 347 | San Fantastico #3b | `tb_t121g00_b_03` |
+| 0x47177A2F | 348 | San Fantastico #4b | `tb_t121g00_b_04` |
+| 0x30104AB9 | 349 | San Fantastico #5b | `tb_t121g00_b_05` |
+| 0xA9191B03 | 350 | San Fantastico #6b | `tb_t121g00_b_06` |
+| 0xDE1E2B95 | 351 | San Fantastico #7b | `tb_t121g00_b_07` |
+| 0x4EA13604 | 352 | San Fantastico #8b | `tb_t121g00_b_08` |
+| 0x39A60692 | 353 | San Fantastico #9b | `tb_t121g00_b_09` |
+| 0x59618F77 | 354 | San Fantastico #10b | `tb_t121g00_b_10` |
+| 0x2E66BFE1 | 355 | San Fantastico #11b | `tb_t121g00_b_11` |
+| 0xB76FEE5B | 356 | San Fantastico #12b | `tb_t121g00_b_12` |
+| 0x601BF508 | 357 | Briny Grotto #1a | `tb_t121d01_a_01` |
+| 0x72AE5AE6 | 358 | Briny Grotto #1b | `tb_t121d01_b_01` |
+| 0x2DD35403 | 359 | Hidden Workshop #1a | `tb_t121d03_a_01` |
+| 0x3F66FBED | 360 | Hidden Workshop #1b | `tb_t121d03_b_01` |
+| 0xA66FAA57 | 361 | Hidden Workshop #2b | `tb_t121d03_b_02` |
+| 0xC66CFEBC | 362 | Seaside Cave #1a | `tb_t121d11_a_01` |
+| 0x5F65AF06 | 363 | Seaside Cave #2a | `tb_t121d11_a_02` |
+| 0x28629F90 | 364 | Seaside Cave #3a | `tb_t121d11_a_03` |
+| 0xB6060A33 | 365 | Seaside Cave #4a | `tb_t121d11_a_04` |
+| 0xC1013AA5 | 366 | Seaside Cave #5a | `tb_t121d11_a_05` |
+| 0x58086B1F | 367 | Seaside Cave #6a | `tb_t121d11_a_06` |
+| 0x2F0F5B89 | 368 | Seaside Cave #7a | `tb_t121d11_a_07` |
+| 0xBFB04618 | 369 | Seaside Cave #8a | `tb_t121d11_a_08` |
+| 0xC8B7768E | 370 | Seaside Cave #9a | `tb_t121d11_a_09` |
+| 0xB8DF9772 | 371 | Old Springdale #1a | `tb_t201g00_a_01` |
+| 0x21D6C6C8 | 372 | Old Springdale #2a | `tb_t201g00_a_02` |
+| 0x56D1F65E | 373 | Old Springdale #3a | `tb_t201g00_a_03` |
+| 0xC8B563FD | 374 | Old Springdale #4a | `tb_t201g00_a_04` |
+| 0xBFB2536B | 375 | Old Springdale #5a | `tb_t201g00_a_05` |
+| 0x26BB02D1 | 376 | Old Springdale #6a | `tb_t201g00_a_06` |
+| 0x51BC3247 | 377 | Old Springdale #7a | `tb_t201g00_a_07` |
+| 0xC1032FD6 | 378 | Old Springdale #8a | `tb_t201g00_a_08` |
+| 0xB6041F40 | 379 | Old Springdale #9a | `tb_t201g00_a_09` |
+| 0xD6C396A5 | 380 | Old Springdale #10a | `tb_t201g00_a_10` |
+| 0xAA6A389C | 381 | Old Springdale #1b | `tb_t201g00_b_01` |
+| 0x33636926 | 382 | Old Springdale #2b | `tb_t201g00_b_02` |
+| 0x446459B0 | 383 | Old Springdale #3b | `tb_t201g00_b_03` |
+| 0xDA00CC13 | 384 | Old Springdale #4b | `tb_t201g00_b_04` |
+| 0xAD07FC85 | 385 | Old Springdale #5b | `tb_t201g00_b_05` |
+| 0x340EAD3F | 386 | Old Springdale #6b | `tb_t201g00_b_06` |
+| 0x43099DA9 | 387 | Old Springdale #7b | `tb_t201g00_b_07` |
+| 0xD3B68038 | 388 | Old Springdale #8b | `tb_t201g00_b_08` |
+| 0xA4B1B0AE | 389 | Old Springdale #9b | `tb_t201g00_b_09` |
+| 0xC476394B | 390 | Old Springdale #10b | `tb_t201g00_b_10` |
+| 0xFD0C4334 | 391 | Fox Shrine Road #1a | `tb_t201d01_a_01` |
+| 0xEFB9ECDA | 392 | Fox Shrine Road #1b | `tb_t201d01_b_01` |
+| 0xB0C4E23F | 393 | Well Road #1a | `tb_t201d03_a_01` |
+| 0xA2714DD1 | 394 | Well Road #1b | `tb_t201d03_b_01` |
+| 0x3B781C6B | 395 | Well Road #2b | `tb_t201d03_b_02` |
+| 0x5B7B4880 | 396 | Springdale Ironworks #1a | `tb_t201d11_a_01` |
+| 0xC272193A | 397 | Springdale Ironworks #2a | `tb_t201d11_a_02` |
+| 0x8152ABB7 | 398 | Mt. Wildwood Shrine (past) #1a | `tb_t202g00_a_01` |
+| 0x93E70459 | 399 | Mt. Wildwood Shrine (past) #1b | `tb_t202g00_b_01` |
+| 0x0AEE55E3 (0xAEE55E3) | 400 | Mt. Wildwood Shrine (past) #2b | `tb_t202g00_b_02` |
+| 0xDCBEFABB | 401 | Gourd Pond (past) #1a | `tb_t206g00_a_01` |
+| 0xCE0B5555 | 402 | Gourd Pond (past) #1b | `tb_t206g00_b_01` |
+| 0x570204EF | 403 | Gourd Pond (past) #2b | `tb_t206g00_b_02` |
+| 0x53E82C71 | 404 | Old Harrisville #1a | `tb_t231g00_a_01` |
+| 0xCAE17DCB | 405 | Old Harrisville #2a | `tb_t231g00_a_02` |
+| 0xBDE64D5D | 406 | Old Harrisville #3a | `tb_t231g00_a_03` |
+| 0x2382D8FE | 407 | Old Harrisville #4a | `tb_t231g00_a_04` |
+| 0x5485E868 | 408 | Old Harrisville #5a | `tb_t231g00_a_05` |
+| 0xCD8CB9D2 | 409 | Old Harrisville #6a | `tb_t231g00_a_06` |
+| 0xBA8B8944 | 410 | Old Harrisville #7a | `tb_t231g00_a_07` |
+| 0x2A3494D5 | 411 | Old Harrisville #8a | `tb_t231g00_a_08` |
+| 0x5D33A443 | 412 | Old Harrisville #9a | `tb_t231g00_a_09` |
+| 0x415D839F | 413 | Old Harrisville #1b | `tb_t231g00_b_01` |
+| 0xD854D225 | 414 | Old Harrisville #2b | `tb_t231g00_b_02` |
+| 0xAF53E2B3 | 415 | Old Harrisville #3b | `tb_t231g00_b_03` |
+| 0x31377710 | 416 | Old Harrisville #4b | `tb_t231g00_b_04` |
+| 0x46304786 | 417 | Old Harrisville #5b | `tb_t231g00_b_05` |
+| 0xDF39163C | 418 | Old Harrisville #6b | `tb_t231g00_b_06` |
+| 0xA83E26AA | 419 | Old Harrisville #7b | `tb_t231g00_b_07` |
+| 0x38813B3B | 420 | Old Harrisville #8b | `tb_t231g00_b_08` |
+| 0x4F860BAD | 421 | Old Harrisville #9b | `tb_t231g00_b_09` |
+| 0x2F418248 | 422 | Old Harrisville #10b | `tb_t231g00_b_10` |
+| 0x163BF837 | 423 | Rice Paddy #1a | `tb_t231d01_a_01` |
+| 0x048E57D9 (0x48E57D9) | 424 | Rice Paddy #1b | `tb_t231d01_b_01` |
+| 0x5BF3593C | 425 | Fullface Rock #1a | `tb_t231d03_a_01` |
+| 0xC2FA0886 | 426 | Fullface Rock #2a | `tb_t231d03_a_02` |
+| 0xB5FD3810 | 427 | Fullface Rock #3a | `tb_t231d03_a_03` |
+| 0x46F66984 | 428 | Cicada Canyon #1a | `tb_t231d04_a_01` |
+| 0xDFFF383E | 429 | Cicada Canyon #2a | `tb_t231d04_a_02` |
+| 0x6A6510B4 | 430 | Old Harrisville Station Plaza #1a | `tb_t232g00_a_01` |
+| 0x78D0BF5A | 431 | Old Harrisville Station Plaza #1b | `tb_t232g00_b_01` |
+| 0xE1D9EEE0 | 432 | Old Harrisville Station Plaza #2b | `tb_t232g00_b_02` |
+| 0x212B84D2 | 433 | Flatpot Plains #1a | `tb_t200d00_a_01` |
+| 0xB822D568 | 434 | Flatpot Plains #2a | `tb_t200d00_a_02` |
+| 0xCF25E5FE | 435 | Flatpot Plains #3a | `tb_t200d00_a_03` |
+| 0x5141705D | 436 | Flatpot Plains #4a | `tb_t200d00_a_04` |
+| 0x264640CB | 437 | Flatpot Plains #5a | `tb_t200d00_a_05` |
+| 0xBF4F1171 | 438 | Flatpot Plains #6a | `tb_t200d00_a_06` |
+| 0xC84821E7 | 439 | Flatpot Plains #7a | `tb_t200d00_a_07` |
+| 0x58F73C76 | 440 | Flatpot Plains #8a | `tb_t200d00_a_08` |
+| 0x2FF00CE0 | 441 | Flatpot Plains #9a | `tb_t200d00_a_09` |
+| 0x4F378505 | 442 | Flatpot Plains #10a | `tb_t200d00_a_10` |
+| 0x3830B593 | 443 | Flatpot Plains #11a | `tb_t200d00_a_11` |
+| 0xE9C55C57 | 444 | Can-Kicking Zone - 2F #1a | `tb_t106d46_a_01` |
+| 0xD42315F5 | 445 | Traffic-Light Zone - 2F #1a | `tb_t106d52_a_01` |
+| 0x1F7FC650 | 446 | Traffic-Light Zone - 3F #1a | `tb_t106d53_a_01` |
+| 0x75B83693 | 447 | Compunzer’s Zone - 3F #1a | `tb_t106d58_a_01` |
+| 0xECB16729 | 448 | Compunzer’s Zone - 3F #2a | `tb_t106d58_a_02` |
+| 0x9BB657BF | 449 | Compunzer’s Zone - 3F #3a | `tb_t106d58_a_03` |
+| 0x05D2C21C (0x5D2C21C) | 450 | Compunzer’s Zone - 3F #4a | `tb_t106d58_a_04` |
+| 0x72D5F28A | 451 | Compunzer’s Zone - 3F #5a | `tb_t106d58_a_05` |
+| 0xEBDCA330 | 452 | Compunzer’s Zone - 3F #6a | `tb_t106d58_a_06` |
+| 0xE5CB0F68 | 453 | Quiz Room - 2F #1a | `tb_t106d62_a_01` |
+| 0x5259DBEC | 454 | Construction Site - 3F #1a | `tb_t104d33_a_01` |
+| 0xCB508A56 | 455 | Construction Site - 3F #2a | `tb_t104d33_a_02` |
+| 0xBC57BAC0 | 456 | Construction Site - 3F #3a | `tb_t104d33_a_03` |
+| 0x22332F63 | 457 | Construction Site - 3F #4a | `tb_t104d33_a_04` |
+| 0x55341FF5 | 458 | Construction Site - 3F #5a | `tb_t104d33_a_05` |
+| 0xC32E2CD3 | 459 | Gold-Gleaming Hwy. - Outer Lane #1a | `tb_t101d02c_a_01` |
+| 0x65592767 | 460 | Mystery Way - Route 2 #1a | `tb_t101d03c_a_01` |
+| 0x0689125D (0x689125D) | 461 | Gold-Gleaming Hwy. - Eastbound #1a | `tb_t101d05c_a_01` |
+| 0x19F18D4D | 462 | Bony Spirits Way - Exit #1a | `tb_t102d01c_a_01` |
+| 0x8E6E9C64 | 463 | Fleshy Souls Way - Exit #1a | `tb_t102d03c_a_01` |
+| 0x61ACF75A | 464 | Mystery Way - Back Road #1a | `tb_t103d03c_a_01` |
+| 0x3A99E6ED | 465 | Mystery Way - Route 6 #1a | `tb_t103d11c_a_01` |
+| 0x8370EC23 | 466 | Gold-Gleaming Hwy. - Westbound #1a | `tb_t104d03c_a_01` |
+| 0xFB2D9634 | 467 | Mystery Way - Route 5 #1a | `tb_t105d01c_a_01` |
+| 0xDCB02DA9 | 468 | Mystery Way - Service Road #1a | `tb_t106d11c_a_01` |
+| 0x3D359EA6 | 469 | Mystery Way - Main Line #1a | `tb_t121d03c_a_01` |
+| 0x6B24504F | 470 | Gold-Gleaming Hwy. - Inner Lane #1a | `tb_t131d01c_a_01` |
+| 0xFCBB4166 | 471 | Bony Spirits Way - Entrance #1a | `tb_t131d03c_a_01` |
+| 0x8013EB4C | 472 | Mystery Way - Route 3 #1a | `tb_t132d01c_a_01` |
+| 0x8558E4BE | 473 | Fleshy Souls Way - Entrance #1a | `tb_t201d01c_a_01` |
+| 0xF784E421 | 474 | Mystery Way - Route 1 #1a | `tb_t121d21_a_01` |
+| 0xE5314BCF | 475 | Mystery Way - Route 1 #1b | `tb_t121d21_b_01` |
+| 0xBA4C452A | 476 | Mystery Way - Route 4 #1a | `tb_t121d23_a_01` |
+| 0xA8F9EAC4 | 477 | Mystery Way - Route 4 #1b | `tb_t121d23_b_01` |
+| 0x21DD073C | 478 | Gogo Junction #1a | `tb_t121d27_a_01` |
+| 0x3368A8D2 | 479 | Gogo Junction #1b | `tb_t121d27_b_01` |
+| 0x51F3EF95 | 480 | Gold-Gleaming Hwy. - Entrance #1a | `tb_t121d31_a_01` |
+| 0xC8FABE2F | 481 | Gold-Gleaming Hwy. - Entrance #2a | `tb_t121d31_a_02` |
+| 0x4346407B | 482 | Gold-Gleaming Hwy. - Entrance #1b | `tb_t121d31_b_01` |
+| 0x1C3B4E9E | 483 | Gold-Gleaming Hwy. - Interchange #1a | `tb_t121d33_a_01` |
+| 0x85321F24 | 484 | Gold-Gleaming Hwy. - Interchange #2a | `tb_t121d33_a_02` |
+| 0xF2352FB2 | 485 | Gold-Gleaming Hwy. - Interchange #3a | `tb_t121d33_a_03` |
+| 0x0E8EE170 (0xE8EE170) | 486 | Gold-Gleaming Hwy. - Interchange #1b | `tb_t121d33_b_01` |
+| 0x9787B0CA | 487 | Gold-Gleaming Hwy. - Interchange #2b | `tb_t121d33_b_02` |
+| 0x2A936FDC | 488 | Uptown Springdale #11b | `tb_t101g00_b_11` |
+| 0x7188BBDA | 489 | Yo-kai World - Hooligan Road #4a | `tb_t001d44_a_04` |
+| 0xC2AB0EDC | 490 | Springdale Business Tower - 13F #5a | `tb_t104d13_a_05` |
+| 0xCC431D5A | 491 | Excellent Tower #6a | `tb_t107g00_a_06` |
+| 0xF912A4B2 | 492 | Briny Grotto #2a | `tb_t121d01_a_02` |
+| 0x001B1F3B (0x1B1F3B) | 493 | Stone House #1a | `tb_t106i05_a_01` |
+| 0x86A6C53B | 494 | Hexpress - Standard Car #1b | `tb_t001t03_b_01` |
+| 0x1FAF9481 | 495 | Hexpress - Standard Car #2b | `tb_t001t03_b_02` |
+| 0x68A8A417 | 496 | Hexpress - Standard Car #3b | `tb_t001t03_b_03` |
+| 0x9BA3F583 | 497 | Hexpress - Dining Car #1b | `tb_t001t04_b_01` |
+| 0x02AAA439 (0x2AAA439) | 498 | Hexpress - Dining Car #2b | `tb_t001t04_b_02` |
+| 0x9F8043E7 | 499 | Gold-Gleaming Hwy. - Eastbound #2a | `tb_t101d05c_a_02` |
 | 0x248C6980 | 500 | - | - |
 | 0x1632876D | 501 | - | - |
 | 0xFF2BA2CC | 502 | - | - |
@@ -3674,47 +3674,47 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0x86F71A68 | 509 | - | - |
 | 0xF1F02AFE | 510 | - | - |
 | 0x66F67A18 | 511 | - | - |
-| 0x795148B2 | 512 | - | - |
-| 0xE0581908 | 513 | - | - |
-| 0x975F299E | 514 | - | - |
-| 0x6BE4E75C | 515 | - | - |
-| 0xF2EDB6E6 | 516 | - | - |
-| 0x85EA8670 | 517 | - | - |
-| 0x1B8E13D3 | 518 | - | - |
-| 0x40DC7477 | 519 | - | - |
-| 0xD9D525CD | 520 | - | - |
-| 0xAED2155B | 521 | - | - |
-| 0x5269DB99 | 522 | - | - |
-| 0xCB608A23 | 523 | - | - |
-| 0xBC67BAB5 | 524 | - | - |
-| 0x22032F16 | 525 | - | - |
-| 0xBF2BF9FE | 526 | - | - |
-| 0x2622A844 | 527 | - | - |
-| 0x512598D2 | 528 | - | - |
-| 0xCF410D71 | 529 | - | - |
-| 0xA22EC946 | 530 | - | - |
-| 0x3B2798FC | 531 | - | - |
-| 0x4C20A86A | 532 | - | - |
-| 0xD2443DC9 | 533 | - | - |
-| 0x399C7CFA | 538 | - | - |
-| 0xA0952D40 | 539 | - | - |
-| 0xB865CA4D | 540 | - | - |
-| 0x216C9BF7 | 541 | - | - |
-| 0x566BAB61 | 542 | - | - |
-| 0xC80F3EC2 | 543 | - | - |
-| 0xBF080E54 | 544 | - | - |
-| 0x26015FEE | 545 | - | - |
-| 0x51066F78 | 546 | - | - |
-| 0xC1B972E9 | 547 | - | - |
-| 0x733919E8 | 548 | - | - |
-| 0xEA304852 | 549 | - | - |
-| 0x9D3778C4 | 550 | - | - |
-| 0x0353ED67 (0x353ED67) | 551 | - | - |
-| 0x7454DDF1 | 552 | - | - |
-| 0x49337898 | 553 | - | - |
-| 0xD03A2922 | 554 | - | - |
-| 0xB6BE427F | 556 | - | - |
-| 0xD679CB9A | 557 | - | - |
+| 0x795148B2 | 512 | Sawayama Castle Town #1a | `tb_t301g00_a_01` |
+| 0xE0581908 | 513 | Sawayama Castle Town #2a | `tb_t301g00_a_02` |
+| 0x975F299E | 514 | Sawayama Castle Town #3a | `tb_t301g00_a_03` |
+| 0x6BE4E75C | 515 | Sawayama Castle Town #1b | `tb_t301g00_b_01` |
+| 0xF2EDB6E6 | 516 | Sawayama Castle Town #2b | `tb_t301g00_b_02` |
+| 0x85EA8670 | 517 | Sawayama Castle Town #3b | `tb_t301g00_b_03` |
+| 0x1B8E13D3 | 518 | Sawayama Castle Town #4b | `tb_t301g00_b_04` |
+| 0x40DC7477 | 519 | Inside Sawayama Castle #1a | `tb_t302g00_a_01` |
+| 0xD9D525CD | 520 | Inside Sawayama Castle #2a | `tb_t302g00_a_02` |
+| 0xAED2155B | 521 | Inside Sawayama Castle #3a | `tb_t302g00_a_03` |
+| 0x5269DB99 | 522 | Inside Sawayama Castle #1b | `tb_t302g00_b_01` |
+| 0xCB608A23 | 523 | Inside Sawayama Castle #2b | `tb_t302g00_b_02` |
+| 0xBC67BAB5 | 524 | Inside Sawayama Castle #3b | `tb_t302g00_b_03` |
+| 0x22032F16 | 525 | Inside Sawayama Castle #4b | `tb_t302g00_b_04` |
+| 0xBF2BF9FE | 526 | Happy-Go-Lucky Express - Standard Car #1b | `tb_t002t03_b_01` |
+| 0x2622A844 | 527 | Happy-Go-Lucky Express - Standard Car #2b | `tb_t002t03_b_02` |
+| 0x512598D2 | 528 | Happy-Go-Lucky Express - Standard Car #3b | `tb_t002t03_b_03` |
+| 0xCF410D71 | 529 | Happy-Go-Lucky Express - Standard Car #4b | `tb_t002t03_b_04` |
+| 0xA22EC946 | 530 | Happy-Go-Lucky Express - Dining Car #1b | `tb_t002t04_b_01` |
+| 0x3B2798FC | 531 | Happy-Go-Lucky Express - Dining Car #2b | `tb_t002t04_b_02` |
+| 0x4C20A86A | 532 | Happy-Go-Lucky Express - Dining Car #3b | `tb_t002t04_b_03` |
+| 0xD2443DC9 | 533 | Happy-Go-Lucky Express - Dining Car #4b | `tb_t002t04_b_04` |
+| 0x399C7CFA | 538 | Paradise Springs #5a | `tb_t001d05_a_05` |
+| 0xA0952D40 | 539 | Paradise Springs #6a | `tb_t001d05_a_06` |
+| 0xB865CA4D | 540 | Gera Gera Land #1a | `tb_t001d06_a_01` |
+| 0x216C9BF7 | 541 | Gera Gera Land #2a | `tb_t001d06_a_02` |
+| 0x566BAB61 | 542 | Gera Gera Land #3a | `tb_t001d06_a_03` |
+| 0xC80F3EC2 | 543 | Gera Gera Land #4a | `tb_t001d06_a_04` |
+| 0xBF080E54 | 544 | Gera Gera Land #5a | `tb_t001d06_a_05` |
+| 0x26015FEE | 545 | Gera Gera Land #6a | `tb_t001d06_a_06` |
+| 0x51066F78 | 546 | Gera Gera Land #7a | `tb_t001d06_a_07` |
+| 0xC1B972E9 | 547 | Gera Gera Land #8a | `tb_t001d06_a_08` |
+| 0x733919E8 | 548 | Wolfit Down #1a | `tb_t001d07_a_01` |
+| 0xEA304852 | 549 | Wolfit Down #2a | `tb_t001d07_a_02` |
+| 0x9D3778C4 | 550 | Wolfit Down #3a | `tb_t001d07_a_03` |
+| 0x0353ED67 (0x353ED67) | 551 | Wolfit Down #4a | `tb_t001d07_a_04` |
+| 0x7454DDF1 | 552 | Wolfit Down #5a | `tb_t001d07_a_05` |
+| 0x49337898 | 553 | Kaibuki Theater - Underground #1a | `tb_t001d09_a_01` |
+| 0xD03A2922 | 554 | Kaibuki Theater - Underground #2a | `tb_t001d09_a_02` |
+| 0xB6BE427F | 556 | Gera Gera Land #9a | `tb_t001d06_a_09` |
+| 0xD679CB9A | 557 | Gera Gera Land #10a | `tb_t001d06_a_10` |
 
 ## FLAG_INFO_3 (7, 164) - TempBitFlag
 

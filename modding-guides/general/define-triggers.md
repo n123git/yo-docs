@@ -32,10 +32,9 @@ Once you've opened the file in CfgBin Editor:
     * `46` (`0x2E`) - GoodBoyTrigger
     * `47` (`0x2F`) - BadBoyTrigger
     * `71` (`0x47`) - AutoTrigger
-  * 2nd param (`TriggerID`): The ID for your trigger. No template is needed for generating the hash for all trigger types, although some are expected to have one.
-    * For instance:
-      * EnvTimeTriggers use template `<hour>`.
-      * GoodBoyTriggers and BadBoyTriggers use ID `0`.
+  * 2nd param (`TriggerID`): The ID for your trigger. No template is needed for generating the hash for all trigger types, although some are expected to have one. For instance:
+    * EnvTimeTriggers use template `<hour>`.
+    * GoodBoyTriggers and BadBoyTriggers use ID `0`.
   * 3rd param: Set to `0`.
   * 4th param (`Cond`): A CExpression. Leave as int `0` if not needed.
   * 5th param: Set to `0`.

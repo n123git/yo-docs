@@ -17,4 +17,14 @@ just_the_docs:
 aux_links_new_tab: true
 
 nav_sort: case_sensitive
+
+plugins:
+  - jekyll-remote-theme
+  - jekyll-polyglot
+
+languages: ["en", "fr", "ko"]
+default_lang: "en"
+exclude_from_localization: ["assets", "css", "fonts", "javascript"]
+parallel_localization: true
+
 #theme: "just-the-docs"

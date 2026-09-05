@@ -1,0 +1,33 @@
+{% assign lang_names = "en:English|fr:Français|ko:한국어" | split: "|" %}
+
+<div class="lang-switcher">
+  <select id="lang-select" onchange="if(this.value) window.location.href=this.value;">
+    {% for lang in site.languages %}
+      {% assign lang_label = lang %}
+      {% for pair in lang_names %}
+        {% assign parts = pair | split: ":" %}
+        {% if parts[0] == lang %}
+          {% assign lang_label = parts[1] %}
+        {% endif %}
+      {% endfor %}
+
+      {% assign target_path = page.permalink_lang[lang] %}
+      {% if lang != site.default_lang %}
+        {% assign target_url = "/" | append: lang | append: target_path %}
+      {% else %}
+        {% assign target_url = target_path %}
+      {% endif %}
+
+      <option value="{{ target_url | relative_url }}" {% if lang == site.active_lang %}selected{% endif %}>
+        {{ lang_label }}
+      </option>
+    {% endfor %}
+  </select>
+</div>
+
+
+{% if page.rendered_lang != site.active_lang %}
+<div class="translation-notice" style="font-size: 0.85em; opacity: 0.75; margin-top: 4px;">
+  This page has not been translated yet into {{ site.active_lang }}; here is the {{ page.rendered_lang }} version.
+</div>
+{% endif %}

@@ -1,5 +1,5 @@
 <!--
-  This file does two things so far:
+  This file does three things so far:
     1. Implements GFM alert support
     2. Reverts code blocks to look how they used to
        - the new darker style they added looks awful
@@ -408,17 +408,19 @@ class JSON5Table {
     const otherCols = headers.map((_, col) => col).filter(col => col !== keyCol);
     const seenKeys = new Set();
     const entries = [];
-
+    const keyColType = columnTypes[keyCol];
+    
     for (const rowValues of grid) {
       const rawKey = rowValues[keyCol];
       const keyText = rawKey === null ? '' : rawKey.replace(this.#BR_RE, ' ').trim();
       if (this.#isNullToken(keyText) || keyText === '') continue;
-
-      if (seenKeys.has(keyText))
+      const normalizedKey = keyColType === 'id' ? `0x${(this.#classifyCell(keyText).value >>> 0).toString(16).toUpperCase()}` : keyText;
+      
+      if (seenKeys.has(normalizedKey))
         throw new Error("This table cannot be copied as it has a conflicting key. Please contact @n123original on discord to resolve this issue, or make an Issue on the site's respository.");
-      seenKeys.add(keyText);
+      seenKeys.add(normalizedKey);
 
-      const formattedKey = this.#formatKey(keyText);
+      const formattedKey = this.#formatKey(normalizedKey);
       const value = otherCols.length === 1 ? this.#formatCell(rowValues[otherCols[0]], columnTypes[otherCols[0]]) : this.#renderKeyedValueObject(headers, columnTypes, rowValues, otherCols);
       entries.push(`${this.#FIELD_INDENT}${formattedKey}: ${value}`);
     }
@@ -435,9 +437,7 @@ class JSON5Table {
 /* adds the copy button to every table */
 const TableCopyButtons = {
   isEligible(table) {
-    return !table.closest('.table-json5-wrapper') &&
-      table.querySelector('thead tr th') &&
-      table.querySelector('tbody tr');
+    return !table.closest('.table-json5-wrapper') && table.querySelector('thead tr th') && table.querySelector('tbody tr');
   },
 
   wrap(table) {

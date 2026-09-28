@@ -10,7 +10,7 @@ nav_order: 1
 > [!WARNING]
 > Please note that you are expected to already understand the basics of XQ itself. All code examples will utilise XtractQuery 6 syntax for readability.
 
-In the 3DS Yo-kai Watch games, excluding Sangokushi, the content and functionality of UIs are not hardcoded; instead they are built from XQ scripts.
+In all 3DS Yo-kai Watch games, with the exception of Sangokushi (which will not be covered here), the content and functionality of UIs are not hardcoded; instead they are built from XQ scripts.
 The following guides will teach you how to create, modify and otherwise interpret UIs. It is highly recommended to read each page in order. 
 This guide is mainly targeted towards Yo-kai Watch 2, although it should, in general, apply to all aforementioned games.
 

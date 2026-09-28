@@ -64,6 +64,28 @@ This instruction has two different behaviours depending on the amount of argumen
 
 Finally, the font, along with other properties, can be changed using `set_text_format`, although this will be explained in detail in a later section.
 
-<!-- TODO: create ## Examples -->
+## Examples
+
+First, let's expand the previous example from §1 to render some text!
+Now after clicking A, after the modal appears, the words "Hello, world!" will appear at coordinates (100, 100) on screen A (the top screen).
+
+```php
+NotARealMenu()
+{
+  while(!ctrl_btn_held(5)) {
+    yield;
+    if ctrl_btn_held(6) {
+      Menu_MessageInfoDraw("You have pressed A!");
+      create_object_2d("HelloText", 0, 100, 100);
+      set_text_format("HelloText", 512); // required for the text to render
+      object_2d_set_text_color("HelloText", 1f, 0.5f, 0f); // we set colour before writing text, otherwise it will not apply to the text
+      set_object_2d_text("HelloText", "Hello, world!");
+      object_2d_move("HelloText", 100, 100); // sync the text position and object position so the text does not render at (0, 0)
+    }
+  }
+}
+```
+
+<!-- TODO: expand ## Examples -->
 
 <!-- TODO: cover mobiclip and its hybrid behaviour -->

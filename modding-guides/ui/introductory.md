@@ -2,7 +2,7 @@
 title: "§1: Introductory"
 layout: default
 parent: UIs
-grandparent: Modding Guides
+grand_parent: Modding Guides
 nav_order: 1
 ---
 

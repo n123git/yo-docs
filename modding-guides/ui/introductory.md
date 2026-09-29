@@ -30,7 +30,7 @@ The operations of a UI script can be split into 3 core stages:
   2. Building - creating objects (this will be explained in detail in §2 and §4), assigning resources, spawning coroutines and other initialisation work.
   3. Listening - maintaining a main loop while handling user interactions (this will be explained in detail in §6).
 
-For example, this, in theory, has been testing, it works as a UI, although being of little to no practical use:
+For example, this technically functions as a UI, although being of little to no practical use:
 
 ```php
 NotARealMenu()

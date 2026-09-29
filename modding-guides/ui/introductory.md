@@ -22,7 +22,7 @@ The entry point for UIs (function called by the engine which starts all the logi
 For instance, `ScratchMenu` has the entry point `ScratchMenu()`. The XQ script responsible for an individual menu is located within `seq/menu/<MenuName>*.xq`
 
 > [!NOTE]
-> The `*` refers to versioning, so instead of only finding `ScratchMenu.xq`, you may also find a file named `ScratchMenu_009s.xq`. Select the file with the highest version.
+> The `*` refers to versioning, so instead of only finding `ScratchMenu.xq`, you may, for example, also find a file named `ScratchMenu_009s.xq`. Select the file with the highest version.
 
 The operations of a UI script can be split into 3 core stages:
 

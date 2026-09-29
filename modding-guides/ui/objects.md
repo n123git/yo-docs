@@ -20,7 +20,7 @@ All content on a screen can be defined as one of the following three types:
     * This includes Images, Fonts, T2bs (`.cfg.bin`), Models, ANM resources, XSky files, and much more.
 
 This categorisation does not include auxiliary content not rendered to a screen such as Audio, Filters and Cameras.
-Additionally, not all resources are visual in nature. For example, t2b files (`.cfg.bin`) are merely data stores, and are fundamentally not visual.
+Additionally, not all resources are visual in nature. For example, t2b files (`.cfg.bin`) are merely data stores, and are therefore fundamentally not directly visible on screen.
 
 ## Behaviour & Usage
 

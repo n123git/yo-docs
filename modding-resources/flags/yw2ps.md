@@ -2579,7 +2579,7 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 |---------|------|------- |------|
 | 0x4FF4F23F | 0 | Dummy flag. Should be zero. | `dummy` |
 | 0x1827540E | 1 | - | `current_area` |
-| 0x97580970 | 2 | Can either be 0, 1 or 2. 0 = Sunny, 1 = Rainy | `weather_condition` |
+| 0x97580970 | 2 | 0 = Auto, 1 = Force Sunny, 2 = Force Rainy | `weather_condition` |
 | 0xC629E7F8 | 3 | 0 = Not unlocked, 1 = Radar only, 2 = Clock only, 3 = Radar & clock | `watch_mode` |
 | 0x7CD7E5A7 | 4 | - | - |
 | 0x9ED422FC | 5 | 0 = None, 1 = Gargaros, 2 = Ogralus, 3 = Orcanos | `orgeTimeMode` |

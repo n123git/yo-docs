@@ -77,7 +77,7 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0x053DA610 (0x53DA610) | 61 | - | - |
 | 0x8BAAE62D | 62 | Typhoon: Advisory Active (Story Weather Event) | - |
 | 0x8CA83098 | 63 | Wicked Yo-kai: Warning Active (Story Weather Event) | - |
-| 0x4152B1B4 | 64 | - | - |
+| 0x4152B1B4 | 64 | - | `fusion_release` |
 | 0x23129852 | 65 | Checks if Soulcery has been unlocked. | `kon_release` |
 | 0x22BEF6EF | 66 | - | - |
 | 0x1D0822F7 | 67 | Checks if viewing your Yo-kai Medals has been unlocked. | `medal_release` |
@@ -3896,12 +3896,12 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0xDEDC17BC | 5 | - | `tmp_shop_type` |
 | 0x0646643E (0x646643E) | 6 | - | - |
 | 0xA50927A3 | 7 | - | `tmp_pass_idx` |
-| 0x88B8AF7B | 8 | - | - |
+| 0x88B8AF7B | 8 | - | `tmp_seek_type` |
 | 0x619DE8E8 | 9 | Total Amount of NPCs hiding in the current Hide & Seek match. | `tmp_seek_num` |
 | 0x20F64979 | 10 | Total Amount of NPCs found in the current Hide & Seek match. | `tmp_seek_get_num` |
 | 0x26BF0B6E | 11 | - | `tmp_quest_time` |
 | 0x8D489757 | 12 | - | `tmp_seek_rest_num` |
-| 0x4833746A | 13 | Hide & Seek Mode? 2 = In Hide & Seek | - |
+| 0x4833746A | 13 | Hide & Seek Music? | `tmp_seek_music` |
 | 0xFE216783 | 14 | - | `scenario_flag_01` |
 | 0x67283639 | 15 | - | `scenario_flag_02` |
 | 0x102F06AF | 16 | - | `scenario_flag_03` |

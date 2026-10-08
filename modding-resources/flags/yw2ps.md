@@ -84,16 +84,16 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0x7F2211BC | 68 | Checks if the Medallium has been unlocked. | `dictionary_release` |
 | 0x066351C6 (0x66351C6) | 69 | Checks if the Yo-Criminals app is unlocked. | - |
 | 0xE2B828E5 | 70 | Checks if the Critter Collection app is unlocked. | - |
-| 0x21EFC7C8 | 71 | Checks if the Music app is unlocked. | - |
+| 0x21EFC7C8 | 71 | Checks if the Music app is unlocked. | `apps_sound_release` |
 | 0xA68AEF18 | 72 | Checks if the Movies app is unlocked. | `apps_event_release` |
-| 0xDA23D924 | 73 | Check if the Summon app is unlocked. | - |
+| 0xDA23D924 | 73 | Check if the Summon app is unlocked. | `apps_watch_release` |
 | 0x5473D9AE | 74 | - | - |
 | 0x167470F5 | 75 | Checks if the Blasters app is unlocked. | - |
 | 0x10D06EA0 | 76 | Checks if the Yo-kai Cam app is unlocked. | - |
 | 0x794B1F0D | 77 | Checks if the Battle app is unlocked. | - |
-| 0xD05D1E41 | 78 | Checks if the Medal Swap app is unlocked. | - |
-| 0x6826BCB0 | 79 | Checks if the Weather app is unlocked. | - |
-| 0x7B97F16C | 80 | Checks if the Trophies app is unlocked. | - |
+| 0xD05D1E41 | 78 | Checks if the Medal Swap app is unlocked. | `apps_trade_release` |
+| 0x6826BCB0 | 79 | Checks if the Weather app is unlocked. | `apps_weather_release` |
+| 0x7B97F16C | 80 | Checks if the Trophies app is unlocked. | `apps_trophy_release` |
 | 0xE434FFFF | 81 | Checks if the Contacts/Friends app is unlocked. | - |
 | 0xB42589B1 | 82 | - | - |
 | 0x187D3371 | 83 | - | - |

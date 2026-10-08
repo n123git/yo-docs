@@ -22,7 +22,7 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0x14C903F2 | 6 | - | - |
 | 0x14889257 | 7 | - | - |
 | 0x360A3623 | 8 | - | - |
-| 0x6F281CF3 | 9 | - | - |
+| 0x6F281CF3 | 9 | Checks if the Movie Materials app is unlocked. | - |
 | 0x83CA72FE | 10 | - | - |
 | 0xB9CDBFB0 | 11 | - | - |
 | 0xB29365A2 | 12 | - | - |
@@ -79,22 +79,22 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0x8CA83098 | 63 | Wicked Yo-kai: Warning Active (Story Weather Event) | - |
 | 0x4152B1B4 | 64 | - | `fusion_release` |
 | 0x23129852 | 65 | Checks if Soulcery has been unlocked. | `kon_release` |
-| 0x22BEF6EF | 66 | - | - |
-| 0x1D0822F7 | 67 | Checks if viewing your Yo-kai Medals has been unlocked. | `medal_release` |
-| 0x7F2211BC | 68 | - | `dictionary_release` |
-| 0x066351C6 (0x66351C6) | 69 | - | - |
-| 0xE2B828E5 | 70 | - | - |
-| 0x21EFC7C8 | 71 | Checks if you have received the Music App. | - |
-| 0xA68AEF18 | 72 | - | - |
-| 0xDA23D924 | 73 | - | - |
+| 0x22BEF6EF | 66 | Checks if the Yo-kai Spots app is unlocked. | - |
+| 0x1D0822F7 | 67 | Checks if the Medals app is unlocked. | `medal_release` |
+| 0x7F2211BC | 68 | Checks if the Medallium has been unlocked. | `dictionary_release` |
+| 0x066351C6 (0x66351C6) | 69 | Checks if the Yo-Criminals app is unlocked. | - |
+| 0xE2B828E5 | 70 | Checks if the Critter Collection app is unlocked. | - |
+| 0x21EFC7C8 | 71 | Checks if the Music app is unlocked. | - |
+| 0xA68AEF18 | 72 | Checks if the Movies app is unlocked. | `apps_event_release` |
+| 0xDA23D924 | 73 | Check if the Summon app is unlocked. | - |
 | 0x5473D9AE | 74 | - | - |
-| 0x167470F5 | 75 | - | - |
-| 0x10D06EA0 | 76 | - | - |
-| 0x794B1F0D | 77 | - | - |
-| 0xD05D1E41 | 78 | - | - |
-| 0x6826BCB0 | 79 | - | - |
-| 0x7B97F16C | 80 | - | - |
-| 0xE434FFFF | 81 | - | - |
+| 0x167470F5 | 75 | Checks if the Blasters app is unlocked. | - |
+| 0x10D06EA0 | 76 | Checks if the Yo-kai Cam app is unlocked. | - |
+| 0x794B1F0D | 77 | Checks if the Battle app is unlocked. | - |
+| 0xD05D1E41 | 78 | Checks if the Medal Swap app is unlocked. | - |
+| 0x6826BCB0 | 79 | Checks if the Weather app is unlocked. | - |
+| 0x7B97F16C | 80 | Checks if the Trophies app is unlocked. | - |
+| 0xE434FFFF | 81 | Checks if the Contacts/Friends app is unlocked. | - |
 | 0xB42589B1 | 82 | - | - |
 | 0x187D3371 | 83 | - | - |
 | 0x7D2EC7B5 | 84 | - | - |
@@ -105,7 +105,7 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0x04FA47F4 (0x4FA47F4) | 89 | - | `event_comp_notice` |
 | 0x8A81D006 | 90 | Checks if the Yo-kai Medallium has been completed. | `dictionary_comp_notice` |
 | 0x62D2B8A6 | 91 | - | `wanted_comp_notice` |
-| 0xE32CCA14 | 92 | - | - |
+| 0xE32CCA14 | 92 | - | `creature_dictionary_comp_notice` |
 | 0x1600AB7C | 93 | Checks if all the Yo-kai Spots have been found. | `yspot_comp_notice` |
 | 0x33F7918D | 94 | - | - |
 | 0xF831790F | 95 | - | - |

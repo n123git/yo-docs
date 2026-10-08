@@ -19,8 +19,8 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0x5B9AFA16 | 3 | - | - |
 | 0xACAA3D15 | 4 | - | - |
 | 0x032EA1A4 (0x32EA1A4) | 5 | - | - |
-| 0x14C903F2 | 6 | - | - |
-| 0x14889257 | 7 | - | - |
+| 0x14C903F2 | 6 | - | `commu_ganso` |
+| 0x14889257 | 7 | - | `commu_honke` |
 | 0x360A3623 | 8 | - | - |
 | 0x6F281CF3 | 9 | Checks if the Movie Materials app is unlocked. | - |
 | 0x83CA72FE | 10 | - | - |

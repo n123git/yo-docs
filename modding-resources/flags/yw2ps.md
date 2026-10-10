@@ -24,7 +24,7 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0x360A3623 | 8 | - | - |
 | 0x6F281CF3 | 9 | Checks if you have received the Movie Materials app. | - |
 | 0x83CA72FE | 10 | - | - |
-| 0xB9CDBFB0 | 11 | - | - |
+| 0xB9CDBFB0 | 11 | Is set to 1 after traveling through a Miradox under normal circumstances. The purpose of this flag is currently unknown. | - |
 | 0xB29365A2 | 12 | - | - |
 | 0x6926965F | 13 | Checks if you have reunited with Whisper. | `friend_wisper` |
 | 0x2A329223 | 14 | Checks if the time of day is stopped. | `time_lock` |
@@ -74,7 +74,7 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0x9B0A23F4 | 58 | Checks if Yo-kai icons are disabled on the map. | `watch_map_yokai_off` |
 | 0x4DBB6FD4 | 59 | - | - |
 | 0x4B11E6C9 | 60 | Checks if rare bugs are unlocked. | `rare_insect_release` |
-| 0x053DA610 (0x53DA610) | 61 | - | - |
+| 0x053DA610 (0x53DA610) | 61 | This flag is set to 1 when the game says you've unlocked story after Key Quests, but is set to 0 once you do the unlocked story. The purpose of this flag is currently unknown. | - |
 | 0x8BAAE62D | 62 | Typhoon: Advisory Active (Story Weather Event) | - |
 | 0x8CA83098 | 63 | Wicked Yo-kai: Warning Active (Story Weather Event) | - |
 | 0x4152B1B4 | 64 | - | - |
@@ -3860,7 +3860,7 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0x66334BE9 | 139 | - | - |
 | 0x6D67FF92 | 140 | - | - |
 | 0xF3036A31 | 141 | - | - |
-| 0x33CEE5A0 | 142 | - | - |
+| 0x33CEE5A0 | 142 | Checks if the Happy-Go-Lucky Express is able to spawn. | - |
 | 0x5EEE653A | 145 | - | - |
 | 0xA82A2107 | 150 | - | - |
 | 0xADB5A999 | 161 | - | - |

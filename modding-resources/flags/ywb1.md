@@ -444,36 +444,36 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0xC570CEC1             | 559  | - | - |
 | 0xB277FE57             | 560  | - | - |
 | 0x2B7EAFED             | 561  | - | - |
-| 0xC594AD79             | 570  | - | - |
-| 0x5C9DFCC3             | 571  | - | - |
-| 0x2B9ACC55             | 572  | - | - |
-| 0xB5FE59F6             | 573  | - | - |
-| 0xC2F96960             | 574  | - | - |
-| 0x5BF038DA             | 575  | - | - |
-| 0x2CF7084C             | 576  | - | - |
-| 0xBC4815DD             | 577  | - | - |
-| 0xCB4F254B             | 578  | - | - |
-| 0xAB88ACAE             | 579  | - | - |
-| 0xDC8F9C38             | 580  | - | - |
-| 0x4586CD82             | 581  | - | - |
-| 0x3281FD14             | 582  | - | - |
-| 0xACE568B7             | 583  | - | - |
-| 0xDBE25821             | 584  | - | - |
-| 0x42EB099B             | 585  | - | - |
-| 0x35EC390D             | 586  | - | - |
-| 0xA553249C             | 587  | - | - |
-| 0xD254140A             | 588  | - | - |
-| 0x80A5FF6D             | 589  | - | - |
-| 0xF7A2CFFB             | 590  | - | - |
-| 0x6EAB9E41             | 591  | - | - |
-| 0x19ACAED7             | 592  | - | - |
-| 0x87C83B74             | 593  | - | - |
-| 0xF0CF0BE2             | 594  | - | - |
-| 0x69C65A58             | 595  | - | - |
-| 0x1EC16ACE             | 596  | - | - |
-| 0x8E7E775F             | 597  | - | - |
-| 0xF97947C9             | 598  | - | - |
-| 0x99BECE2C             | 599  | - | - |
+| 0xC594AD79             | 570  | Checks if you have completed the Indoorsmen Yo-kai Circle. | - |
+| 0x5C9DFCC3             | 571  | Checks if you have completed the Trying Tangle Tango Yo-kai Circle. | - |
+| 0x2B9ACC55             | 572  | Checks if you have completed the Team "Respect Assets!" Yo-kai Circle. | - |
+| 0xB5FE59F6             | 573  | Checks if you have completed the Classy Classics Yo-kai Circle. | - |
+| 0xC2F96960             | 574  | Checks if you have completed the "Sneezy Snuffles" Union Yo-kai Circle. | - |
+| 0x5BF038DA             | 575  | Checks if you have completed the Bratz Yo-kai Circle. | - |
+| 0x2CF7084C             | 576  | Checks if you have completed the Happy Couples Yo-kai Circle. | - |
+| 0xBC4815DD             | 577  | Checks if you have completed the Karaoke Klub Yo-kai Circle. | - |
+| 0xCB4F254B             | 578  | Checks if you have completed the Snaggerjag and Friends Yo-kai Circle. | - |
+| 0xAB88ACAE             | 579  | Checks if you have completed the Lost in Translation Yo-kai Circle. | - |
+| 0xDC8F9C38             | 580  | Checks if you have completed the Super-Duper Party Posse Yo-kai Circle. | - |
+| 0x4586CD82             | 581  | Checks if you have completed the Yo-kai Ladies' Society Yo-kai Circle. | - |
+| 0x3281FD14             | 582  | Checks if you have completed the The Eyes Have It Yo-kai Circle. | - |
+| 0xACE568B7             | 583  | Checks if you have completed the Power Strangers Yo-kai Circle. | - |
+| 0xDBE25821             | 584  | Checks if you have completed the The Three Hunketeers Yo-kai Circle. | - |
+| 0x42EB099B             | 585  | Checks if you have completed the Muscle Heads Yo-kai Circle. | - |
+| 0x35EC390D             | 586  | Checks if you have completed the A Balanced Yo-kai Meal Yo-kai Circle. | - |
+| 0xA553249C             | 587  | Checks if you have completed the Beautifour Yo-kai Circle. | - |
+| 0xD254140A             | 588  | Checks if you have completed the Jeweled Whiskers Yo-kai Circle. | - |
+| 0x80A5FF6D             | 589  | Checks if you have completed the Madam in the Afternoon Yo-kai Circle. | - |
+| 0xF7A2CFFB             | 590  | Checks if you have completed the Seven Samukai Yo-kai Circle. | - |
+| 0x6EAB9E41             | 591  | Checks if you have completed the Fruit Basket Yo-kai Circle. | - |
+| 0x19ACAED7             | 592  | Checks if you have completed the Prey of the Hungramps Yo-kai Circle. | - |
+| 0x87C83B74             | 593  | Checks if you have completed the Oni Slayers Yo-kai Circle. | - |
+| 0xF0CF0BE2             | 594  | Checks if you have completed the Five Wicked Yo-kai Yo-kai Circle. | - |
+| 0x69C65A58             | 595  | Checks if you have completed the Clockwork Yo-kai Yo-kai Circle. | - |
+| 0x1EC16ACE             | 596  | Checks if you have completed the Kappaz Yo-kai Circle. | - |
+| 0x8E7E775F             | 597  | Checks if you have completed the Red Cat Corps Leaders Yo-kai Circle. | - |
+| 0xF97947C9             | 598  | Checks if you have completed the White Dog Squad HQ Yo-kai Circle. | - |
+| 0x99BECE2C             | 599  | Checks if you have completed the Legendary Blasters Yo-kai Circle. | - |
 | 0x86FD0F63             | 1000 | Checks if the password R3DM1NUS has been used. | `pass_colb_00` |
 | 0xF1FA3FF5             | 1001 | Checks if the password M1GHTR1GHT has been used. | `pass_colb_01` |
 | 0x68F36E4F             | 1002 | Checks if the password Y3LL0GH0ST has been used. | `pass_colb_02` |
